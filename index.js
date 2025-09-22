@@ -3,6 +3,9 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
+// Method 1: Download entire playlist with Puppeteer in upload order with organized folders
+const playlistUrl = "https://youtube.com/playlist?list=PLSThUO0ILfPTxWjYEJQJNlZKZs7todIEt&si=xIR1aXkqqS20QCPf";
+
 // Folder to save videos
 const downloadFolder = path.join(__dirname, 'downloads');
 if (!fs.existsSync(downloadFolder)) fs.mkdirSync(downloadFolder);
@@ -653,9 +656,6 @@ module.exports = {
 };
 
 // Example Usage - Uncomment the method you want to use
-
-// Method 1: Download entire playlist with Puppeteer in upload order with organized folders
-const playlistUrl = 'https://youtube.com/playlist?list=PLSThUO0ILfPQLKN7wBhTLU2IapEwnxyHK&si=lpn6CqcsiCIpH_gU';
 downloadPlaylist(playlistUrl, {
   maxRetries: 3,
   delayBetweenDownloads: 3000, // 3 seconds between downloads
