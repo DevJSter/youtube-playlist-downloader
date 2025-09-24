@@ -1,2 +1,8 @@
 downloads/*
 node_modules/*
+.temp/
+*-watch.html
+*-player-script.js
+*.html
+*.js.tmp
+.DS_Store

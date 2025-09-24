@@ -8,7 +8,7 @@
  },
  "dependencies": {
   "@distube/ytdl-core": "latest",
-  "puppeteer": "^21.3.8"
+  "puppeteer": "24.22.1"
  },
  "author": "",
  "license": "MIT"

@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Method 1: Download entire playlist with Puppeteer in upload order with organized folders
-const playlistUrl = "https://youtube.com/playlist?list=PLSThUO0ILfPTxWjYEJQJNlZKZs7todIEt&si=xIR1aXkqqS20QCPf";
+const playlistUrl = "https://youtube.com/playlist?list=PLSThUO0ILfPQLKN7wBhTLU2IapEwnxyHK&si=VcN0X37QZOLcPi6p";
 
 // Folder to save videos
 const downloadFolder = path.join(__dirname, 'downloads');
@@ -15,16 +15,66 @@ function sanitizeFilename(filename) {
   return filename.replace(/[\\/:*?"<>|]/g, '').replace(/\s+/g, ' ').trim();
 }
 
+// Create temp directory for debug files and clean it up
+const tempDir = path.join(__dirname, '.temp');
+if (!fs.existsSync(tempDir)) fs.mkdirSync(tempDir);
+
+// Helper function to clean up debug files
+function cleanupDebugFiles() {
+  try {
+    // Clean up HTML and JS debug files from root directory
+    const files = fs.readdirSync(__dirname);
+    files.forEach(file => {
+      if (file.match(/^\d+-watch\.html$/) || file.match(/^\d+-player-script\.js$/)) {
+        fs.unlinkSync(path.join(__dirname, file));
+      }
+    });
+    
+    // Clean up temp directory
+    if (fs.existsSync(tempDir)) {
+      const tempFiles = fs.readdirSync(tempDir);
+      tempFiles.forEach(file => {
+        fs.unlinkSync(path.join(tempDir, file));
+      });
+    }
+  } catch (error) {
+    // Ignore cleanup errors
+  }
+}
+
 // Helper function to get video info with retry logic
 async function getVideoInfo(url, retries = 3) {
+  // Change to temp directory to contain debug files
+  const originalCwd = process.cwd();
+  
   for (let i = 0; i < retries; i++) {
     try {
-      const info = await ytdl.getInfo(url);
+      process.chdir(tempDir);
+      
+      const info = await ytdl.getInfo(url, {
+        requestOptions: {
+          headers: {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1'
+          }
+        }
+      });
+      
+      process.chdir(originalCwd);
       return info;
     } catch (error) {
+      process.chdir(originalCwd);
       console.log(`Attempt ${i + 1} failed for ${url}: ${error.message}`);
-      if (i === retries - 1) throw error;
-      await new Promise(resolve => setTimeout(resolve, 1000 * (i + 1))); // exponential backoff
+      if (i === retries - 1) {
+        // Clean up debug files after failure
+        cleanupDebugFiles();
+        throw error;
+      }
+      await new Promise(resolve => setTimeout(resolve, 2000 * (i + 1))); // exponential backoff
     }
   }
 }
@@ -392,6 +442,53 @@ async function extractPlaylistUrls(playlistUrl, options = {}) {
   }
 }
 
+// Alternative download function using yt-dlp as fallback
+async function downloadVideoWithYtDlp(videoUrl, customTitle = null, playlistFolder = null) {
+  const { spawn } = require('child_process');
+  
+  try {
+    const outputDir = playlistFolder || downloadFolder;
+    const sanitizedTitle = customTitle ? sanitizeFilename(customTitle) : '%(title)s';
+    const outputTemplate = path.join(outputDir, `${sanitizedTitle}.%(ext)s`);
+    
+    console.log(`\n🔧 Trying yt-dlp for: ${videoUrl}`);
+    
+    return new Promise((resolve, reject) => {
+      const ytDlp = spawn('yt-dlp', [
+        '--format', 'best[height<=720]',
+        '--output', outputTemplate,
+        '--no-playlist',
+        '--user-agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+        videoUrl
+      ]);
+      
+      let output = '';
+      let errorOutput = '';
+      
+      ytDlp.stdout.on('data', (data) => {
+        output += data.toString();
+        process.stdout.write(data);
+      });
+      
+      ytDlp.stderr.on('data', (data) => {
+        errorOutput += data.toString();
+        process.stderr.write(data);
+      });
+      
+      ytDlp.on('close', (code) => {
+        if (code === 0) {
+          console.log(`\n✅ Downloaded with yt-dlp: ${customTitle || 'video'}`);
+          resolve({ success: true, skipped: false, title: customTitle || 'video' });
+        } else {
+          reject(new Error(`yt-dlp exited with code ${code}: ${errorOutput}`));
+        }
+      });
+    });
+  } catch (error) {
+    throw new Error(`yt-dlp failed: ${error.message}`);
+  }
+}
+
 // Function to download a single video with progress tracking
 async function downloadVideo(videoUrl, customTitle = null, playlistFolder = null) {
   try {
@@ -446,7 +543,27 @@ async function downloadVideo(videoUrl, customTitle = null, playlistFolder = null
     console.log(`🎥 Quality: ${format.qualityLabel || format.quality} - ${format.container}`);
     console.log(`📁 Saving to: ${outputDir}`);
     
-    const videoStream = ytdl.downloadFromInfo(info, { format: format });
+    // Change to temp directory before downloading to contain debug files
+    const originalCwd = process.cwd();
+    process.chdir(tempDir);
+    
+    const videoStream = ytdl.downloadFromInfo(info, { 
+      format: format,
+      requestOptions: {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+          'Accept': '*/*',
+          'Accept-Language': 'en-US,en;q=0.9',
+          'Accept-Encoding': 'gzip, deflate, br',
+          'Connection': 'keep-alive',
+          'Referer': 'https://www.youtube.com/',
+          'Origin': 'https://www.youtube.com'
+        }
+      }
+    });
+    
+    // Return to original directory
+    process.chdir(originalCwd);
     const writeStream = fs.createWriteStream(outputPath);
     
     let downloadedBytes = 0;
@@ -590,18 +707,34 @@ async function downloadPlaylist(playlistUrl, options = {}) {
       console.log(`📋 Original Position: #${video.playlistIndex}`);
       
       try {
-        const result = await downloadVideo(video.url, sanitizeFilename(video.title), playlistFolder);
+        // Try yt-dlp first since it's more reliable and doesn't create debug files
+        console.log(`🔧 Using yt-dlp (primary method)`);
+        const result = await downloadVideoWithYtDlp(video.url, sanitizeFilename(video.title), playlistFolder);
         if (result.skipped) {
           skippedCount++;
         } else {
           successCount++;
         }
       } catch (error) {
-        failCount++;
-        console.error(`❌ Failed to download "${video.title}": ${error.message}`);
+        console.error(`❌ yt-dlp failed for "${video.title}": ${error.message}`);
         
-        if (!continueOnError) {
-          throw error;
+        // Try fallback method with ytdl-core
+        try {
+          console.log(`🔄 Trying fallback method (ytdl-core)...`);
+          const result = await downloadVideo(video.url, sanitizeFilename(video.title), playlistFolder);
+          if (result.skipped) {
+            skippedCount++;
+          } else {
+            successCount++;
+            console.log(`✅ Fallback download successful!`);
+          }
+        } catch (fallbackError) {
+          failCount++;
+          console.error(`❌ Both methods failed for "${video.title}": ${fallbackError.message}`);
+          
+          if (!continueOnError) {
+            throw fallbackError;
+          }
         }
       }
       
@@ -619,6 +752,10 @@ async function downloadPlaylist(playlistUrl, options = {}) {
     console.log(`❌ Failed: ${failCount}`);
     console.log(`📁 All files saved to: ${playlistFolder}`);
     
+    // Clean up debug files
+    console.log(`🧹 Cleaning up temporary files...`);
+    cleanupDebugFiles();
+    
     return {
       playlistInfo,
       successCount,
@@ -635,6 +772,10 @@ async function downloadPlaylist(playlistUrl, options = {}) {
     console.log(`1. Set headless: false to see what's happening`);
     console.log(`2. Check if the playlist URL is correct and public`);
     console.log(`3. Try downloading individual videos manually`);
+    
+    // Clean up debug files even on error
+    console.log(`🧹 Cleaning up temporary files...`);
+    cleanupDebugFiles();
   }
 }
 
