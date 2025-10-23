@@ -3,8 +3,16 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
-// Method 1: Download entire playlist with Puppeteer in upload order with organized folders
-const playlistUrl = "https://youtube.com/playlist?list=PLSThUO0ILfPTxWjYEJQJNlZKZs7todIEt&si=xIR1aXkqqS20QCPf";
+// Method 1: Download multiple playlists with Puppeteer in upload order with organized folders
+const playlistUrls = [
+  "https://youtube.com/playlist?list=PLSThUO0ILfPTxWjYEJQJNlZKZs7todIEt&si=xIR1aXkqqS20QCPf",
+  // Add more playlist URLs here
+  // "https://youtube.com/playlist?list=ANOTHER_PLAYLIST_ID",
+  // "https://youtube.com/playlist?list=YET_ANOTHER_PLAYLIST_ID",
+];
+
+// Single playlist URL (for backwards compatibility)
+const playlistUrl = playlistUrls[0];
 
 // Folder to save videos
 const downloadFolder = path.join(__dirname, 'downloads');
@@ -239,6 +247,7 @@ async function extractPlaylistUrls(playlistUrl, options = {}) {
         'h1.ytd-playlist-header-renderer',
         'yt-formatted-string.style-scope.ytd-playlist-header-renderer',
         'h1 yt-formatted-string',
+        'ytd-playlist-header-renderer #title',
         
         // Fallback selectors
         'yt-formatted-string.title',
@@ -253,7 +262,12 @@ async function extractPlaylistUrls(playlistUrl, options = {}) {
         '.ytd-playlist-header-renderer h1',
         'ytd-playlist-header-renderer h1 *',
         '.playlist-title',
-        '#title'
+        '#title',
+        
+        // More specific YouTube selectors
+        'ytd-playlist-header-renderer .metadata-wrapper h1',
+        'ytd-playlist-header-renderer .title',
+        '#page-manager ytd-playlist-header-renderer h1'
       ];
       
       console.log('DEBUG: Available h1 elements:');
@@ -265,9 +279,15 @@ async function extractPlaylistUrls(playlistUrl, options = {}) {
         try {
           const el = document.querySelector(sel);
           if (el && el.textContent && el.textContent.trim().length > 0) {
-            title = el.textContent.trim();
-            console.log(`DEBUG: Found title with selector: ${sel} -> ${title}`);
-            break;
+            const text = el.textContent.trim();
+            // Skip generic YouTube text
+            if (!text.toLowerCase().includes('youtube') && 
+                !text.toLowerCase().includes('subscribe') && 
+                text.length > 3 && text.length < 200) {
+              title = text;
+              console.log(`DEBUG: Found title with selector: ${sel} -> ${title}`);
+              break;
+            }
           }
         } catch (e) {
           // Continue to next selector
@@ -292,31 +312,12 @@ async function extractPlaylistUrls(playlistUrl, options = {}) {
         }
       }
       
-      // If still no title, try looking for any h1 or large text element
+      // Extract from URL if all else fails
       if (!title) {
-        const h1Elements = document.querySelectorAll('h1, h2, h3');
-        for (const h of h1Elements) {
-          const text = h.textContent.trim();
-          if (text.length > 3 && text.length < 200 && !text.toLowerCase().includes('youtube')) {
-            title = text;
-            console.log(`DEBUG: Found title in header element: ${title}`);
-            break;
-          }
-        }
-      }
-      
-      // Last resort: try to extract from URL or use a more generic approach
-      if (!title) {
-        // Look for any text that could be a playlist title
-        const allText = Array.from(document.querySelectorAll('*'))
-          .map(el => el.textContent?.trim())
-          .filter(text => text && text.length > 5 && text.length < 100)
-          .filter(text => !text.includes('Subscribe') && !text.includes('views') && !text.includes('ago'))
-          .filter(text => text.split(' ').length >= 2);
-        
-        if (allText.length > 0) {
-          title = allText[0];
-          console.log(`DEBUG: Found title using generic text search: ${title}`);
+        const urlMatch = window.location.href.match(/list=([^&]+)/);
+        if (urlMatch) {
+          title = `Playlist_${urlMatch[1]}`;
+          console.log(`DEBUG: Using URL-based title: ${title}`);
         }
       }
       
@@ -332,6 +333,7 @@ async function extractPlaylistUrls(playlistUrl, options = {}) {
         'ytd-channel-name a yt-formatted-string',
         '.ytd-channel-name a',
         'ytd-video-owner-renderer .yt-simple-endpoint',
+        'ytd-playlist-header-renderer .owner-text a',
         
         // Fallback selectors
         'a.yt-simple-endpoint.style-scope.yt-formatted-string',
@@ -647,15 +649,140 @@ async function downloadSingleVideo(videoUrl) {
   }
 }
 
+// Function to download multiple playlists
+async function downloadMultiplePlaylists(playlistUrls, options = {}) {
+  const { 
+    delayBetweenPlaylists = 5000, // 5 seconds between playlists
+    continueOnPlaylistError = true,
+    ...playlistOptions 
+  } = options;
+  
+  console.log(`🎵 Starting batch download of ${playlistUrls.length} playlists...`);
+  
+  const results = [];
+  let totalSuccess = 0;
+  let totalSkipped = 0;
+  let totalFailed = 0;
+  let totalPlaylistsFailed = 0;
+  
+  for (let i = 0; i < playlistUrls.length; i++) {
+    const url = playlistUrls[i];
+    console.log(`\n${'='.repeat(60)}`);
+    console.log(`📋 Processing Playlist ${i + 1}/${playlistUrls.length}`);
+    console.log(`🔗 URL: ${url}`);
+    console.log(`${'='.repeat(60)}`);
+    
+    try {
+      const result = await downloadPlaylist(url, playlistOptions);
+      
+      if (result) {
+        results.push({
+          url,
+          success: true,
+          playlistInfo: result.playlistInfo,
+          successCount: result.successCount,
+          skippedCount: result.skippedCount,
+          failCount: result.failCount,
+          totalVideos: result.totalVideos,
+          playlistFolder: result.playlistFolder
+        });
+        
+        totalSuccess += result.successCount;
+        totalSkipped += result.skippedCount;
+        totalFailed += result.failCount;
+        
+        console.log(`\n✅ Playlist "${result.playlistInfo.title}" completed successfully!`);
+        console.log(`   📊 Videos: ${result.successCount} downloaded, ${result.skippedCount} skipped, ${result.failCount} failed`);
+      }
+      
+    } catch (error) {
+      totalPlaylistsFailed++;
+      const errorResult = {
+        url,
+        success: false,
+        error: error.message,
+        playlistInfo: null
+      };
+      results.push(errorResult);
+      
+      console.error(`\n❌ Playlist ${i + 1} failed: ${error.message}`);
+      
+      if (!continueOnPlaylistError) {
+        console.log(`🛑 Stopping batch download due to playlist error.`);
+        break;
+      }
+    }
+    
+    // Add delay between playlists (except for the last one)
+    if (i < playlistUrls.length - 1 && delayBetweenPlaylists > 0) {
+      console.log(`\n⏳ Waiting ${delayBetweenPlaylists}ms before next playlist...`);
+      await new Promise(resolve => setTimeout(resolve, delayBetweenPlaylists));
+    }
+  }
+  
+  // Final summary
+  console.log(`\n${'='.repeat(60)}`);
+  console.log(`🎉 BATCH DOWNLOAD COMPLETE`);
+  console.log(`${'='.repeat(60)}`);
+  console.log(`📋 Total Playlists: ${playlistUrls.length}`);
+  console.log(`✅ Successful Playlists: ${results.filter(r => r.success).length}`);
+  console.log(`❌ Failed Playlists: ${totalPlaylistsFailed}`);
+  console.log(`\n📊 Total Videos Across All Playlists:`);
+  console.log(`   ✅ Downloaded: ${totalSuccess}`);
+  console.log(`   ⏭️  Skipped: ${totalSkipped}`);
+  console.log(`   ❌ Failed: ${totalFailed}`);
+  console.log(`\n📁 Downloaded Playlists:`);
+  
+  results.filter(r => r.success).forEach((result, i) => {
+    console.log(`   ${i + 1}. "${result.playlistInfo.title}" (${result.successCount} videos)`);
+    console.log(`      📁 ${result.playlistFolder}`);
+  });
+  
+  if (totalPlaylistsFailed > 0) {
+    console.log(`\n❌ Failed Playlists:`);
+    results.filter(r => !r.success).forEach((result, i) => {
+      console.log(`   ${i + 1}. ${result.url}`);
+      console.log(`      Error: ${result.error}`);
+    });
+  }
+  
+  return {
+    totalPlaylists: playlistUrls.length,
+    successfulPlaylists: results.filter(r => r.success).length,
+    failedPlaylists: totalPlaylistsFailed,
+    totalVideosDownloaded: totalSuccess,
+    totalVideosSkipped: totalSkipped,
+    totalVideosFailed: totalFailed,
+    results
+  };
+}
+
 // Export functions for use in other files
 module.exports = {
   downloadVideo: downloadSingleVideo,
   downloadPlaylist,
+  downloadMultiplePlaylists,
   extractPlaylistUrls,
   downloadFolder
 };
 
-// Example Usage - Uncomment the method you want to use
+// Example Usage - Choose one of the methods below:
+
+// Method 1: Download multiple playlists in batch
+downloadMultiplePlaylists(playlistUrls, {
+  maxRetries: 3,
+  delayBetweenDownloads: 3000, // 3 seconds between downloads within each playlist
+  delayBetweenPlaylists: 5000, // 5 seconds between playlists
+  continueOnError: true, // Continue if a video fails
+  continueOnPlaylistError: true, // Continue if an entire playlist fails
+  headless: "new", // Set to false to see browser in action //true for mac & new for linux 
+  maxVideos: null, // Set a number to limit downloads per playlist
+  createPlaylistFolder: true, // Creates folder with playlist name
+  sortOrder: 'upload' // 'playlist' (original order), 'upload' (oldest first), 'reverse' (newest first)
+});
+
+// Method 2: Download single playlist (original behavior)
+/*
 downloadPlaylist(playlistUrl, {
   maxRetries: 3,
   delayBetweenDownloads: 3000, // 3 seconds between downloads
@@ -665,3 +792,4 @@ downloadPlaylist(playlistUrl, {
   createPlaylistFolder: true, // Creates folder with playlist name
   sortOrder: 'upload' // 'playlist' (original order), 'upload' (oldest first), 'reverse' (newest first)
 });
+*/
