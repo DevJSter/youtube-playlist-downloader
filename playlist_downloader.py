@@ -9,7 +9,7 @@ import re
 import json
 import time
 import asyncio
-import subprocess
+import subprocess, sys, importlib, shutil
 from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Optional, Any
@@ -582,9 +582,8 @@ async def main():
     
     # Multiple playlists configuration
     playlist_urls = [
-        "https://youtube.com/playlist?list=PLO5VPQH6OWdX-Rh7RonjZhOd9pb9zOnHW&si=fordeuy3g3xBkVqI",
-        "https://youtube.com/playlist?list=PLO5VPQH6OWdXR8NlZt0jRbC39W_IyzS-v&si=KQ19RFSLhMBJQ6K3",
-        "https://youtube.com/playlist?list=PLO5VPQH6OWdW9b6GKJR4Dt9XZxQlJuVp_&si=mvumkzxglMOSf1Gd",
+     "https://youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&si=C9YMgZFw_UlPV2iO",
+     "https://youtube.com/playlist?list=PL8p2I9GklV463WUKdVzUZ17IDZ3SwoSTu&si=C3b2khRbj7Nqm49h",
         # Add more playlist URLs here
         # "https://youtube.com/playlist?list=ANOTHER_PLAYLIST_ID",
     ]
@@ -617,29 +616,63 @@ async def main():
 
 
 if __name__ == "__main__":
-    # Check for required dependencies
-    required_tools = ['chromedriver', 'yt-dlp']
+    # Cross-platform check for required tools (improved for Windows)
     missing_tools = []
-    
-    for tool in required_tools:
+
+    # yt-dlp: accept either the python module or an executable on PATH
+    try:
+        yt_spec = importlib.util.find_spec("yt_dlp")
+    except Exception:
+        yt_spec = None
+
+    if yt_spec is None and shutil.which("yt-dlp") is None:
+        missing_tools.append('yt-dlp')
+
+    # chromedriver: check PATH first, otherwise try to auto-install via chromedriver-autoinstaller
+    chromedriver_ok = shutil.which("chromedriver") is not None
+    if not chromedriver_ok:
         try:
-            subprocess.run([tool, '--version'], capture_output=True, check=True)
-        except (subprocess.CalledProcessError, FileNotFoundError):
-            missing_tools.append(tool)
-    
+            import chromedriver_autoinstaller
+        except Exception:
+            # Attempt to install chromedriver-autoinstaller into the running env
+            try:
+                subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade", "chromedriver-autoinstaller"])
+                import chromedriver_autoinstaller
+            except Exception:
+                chromedriver_autoinstaller = None
+
+        if chromedriver_autoinstaller:
+            try:
+                chromedriver_autoinstaller.install()
+                chromedriver_ok = True
+            except Exception:
+                chromedriver_ok = False
+
+    if not chromedriver_ok:
+        missing_tools.append('chromedriver')
+
     if missing_tools:
         print(f"❌ Missing required tools: {', '.join(missing_tools)}")
-        print(f"📦 Install instructions:")
+        print("📦 Install instructions (Windows):")
         if 'chromedriver' in missing_tools:
-            print(f"   - ChromeDriver: brew install chromedriver (macOS) or download from https://chromedriver.chromium.org/")
+            print("   - ChromeDriver options:")
+            print("       * Recommended (auto from Python): python -m pip install --upgrade chromedriver-autoinstaller")
+            print("         Then the script will download a matching driver automatically.")
+            print("       * Chocolatey (system-wide): choco install chromedriver -y")
+            print("       * Manual: download from https://chromedriver.chromium.org/ and place chromedriver.exe on your PATH or next to this script.")
         if 'yt-dlp' in missing_tools:
-            print(f"   - yt-dlp: pip install yt-dlp or brew install yt-dlp")
+            print("   - yt-dlp options:")
+            print("       * Install into current Python environment: python -m pip install --upgrade yt-dlp")
+            print("       * Or install for current user and add Scripts to PATH:")
+            print("           python -m pip install --upgrade --user yt-dlp")
+            print("           Add the user Scripts folder (e.g. %USERPROFILE%\\AppData\\Roaming\\Python\\PythonXX\\Scripts) to your PATH to call 'yt-dlp' directly.")
+            print("       * You can also run yt-dlp without a PATH entry using: python -m yt_dlp [options]")
         exit(1)
-    
+
     # Run the main function
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
-        print(f"\n🛑 Download interrupted by user")
+        print("\n🛑 Download interrupted by user")
     except Exception as e:
         print(f"\n💥 Unexpected error: {e}")
