@@ -5,7 +5,16 @@ const path = require('path');
 
 // Method 1: Download multiple playlists with Puppeteer in upload order with organized folders
 const playlistUrls = [
-  "https://youtube.com/playlist?list=PLSThUO0ILfPTxWjYEJQJNlZKZs7todIEt&si=xIR1aXkqqS20QCPf",
+  "https://youtube.com/playlist?list=PLO5VPQH6OWdX-Rh7RonjZhOd9pb9zOnHW&si=fordeuy3g3xBkVqI",
+  "https://youtube.com/playlist?list=PLO5VPQH6OWdXR8NlZt0jRbC39W_IyzS-v&si=KQ19RFSLhMBJQ6K3",
+  "https://youtube.com/playlist?list=PLO5VPQH6OWdW9b6GKJR4Dt9XZxQlJuVp_&si=mvumkzxglMOSf1Gd",
+  "https://youtube.com/playlist?list=PLO5VPQH6OWdVKZKJtTGTB10dDXyMVvPR5&si=Jqu-8Pp_z6glGIG5",
+  "https://youtube.com/playlist?list=PLO5VPQH6OWdXp2_Nk8U7V-zh7suI05i0E&si=8MpQLKxLd0563z8U",
+  "https://youtube.com/playlist?list=PLO5VPQH6OWdULDcret0S0EYQ7YcKzrigz&si=LoYClaBb6074Ap9t",
+  "https://youtube.com/playlist?list=PLO5VPQH6OWdVfvNOaEhBtA53XHyHo_oJo&si=gX31bbmjW8XKq1H6",
+  "https://youtube.com/playlist?list=PLO5VPQH6OWdXxQc_1YPa63Ody9LknKW4k&si=u2C4E1wquoSZy9s_",
+  "https://youtube.com/playlist?list=PLO5VPQH6OWdXhkOvoptGTyQk3KI2EawUc&si=FuqOQE916BYpyqZQ",
+  "https://youtube.com/playlist?list=PLO5VPQH6OWdXFEiSgfL0GoS2fZ3ZNoC0_&si=jKJ1SwF5YUl2UBOD",
   // Add more playlist URLs here
   // "https://youtube.com/playlist?list=ANOTHER_PLAYLIST_ID",
   // "https://youtube.com/playlist?list=YET_ANOTHER_PLAYLIST_ID",
