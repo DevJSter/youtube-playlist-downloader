@@ -1,0 +1,276 @@
+{
+  "title": "Smart Contract Programmer",
+  "channel": "Smart Contract Programmer",
+  "url": "https://youtube.com/playlist?list=PLO5VPQH6OWdVKZKJtTGTB10dDXyMVvPR5&si=Jqu-8Pp_z6glGIG5",
+  "totalVideos": 22,
+  "extractedAt": "2025-10-24T08:01:29.610Z",
+  "videos": [
+    {
+      "title": "State Variables Stored in a Single Slot | EVM Storage 1",
+      "url": "https://www.youtube.com/watch?v=vTeav5Rinco",
+      "playlistIndex": 1,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Bit Masking | EVM Storage 2",
+      "url": "https://www.youtube.com/watch?v=luCjY2IQEuw",
+      "playlistIndex": 2,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "State Variables Packed into a Slot | EVM Storage 3",
+      "url": "https://www.youtube.com/watch?v=Z0tC7B4c4Cc",
+      "playlistIndex": 3,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Structs | EVM Storage 4",
+      "url": "https://www.youtube.com/watch?v=xWkOlxerVJw",
+      "playlistIndex": 4,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Constants | EVM Storage 5",
+      "url": "https://www.youtube.com/watch?v=JQZu-43MGhI",
+      "playlistIndex": 5,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fixed Size Arrays | EVM Storage 6",
+      "url": "https://www.youtube.com/watch?v=74vyHBD_L1E",
+      "playlistIndex": 6,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Dynamic Size Arrays | EVM Storage 7",
+      "url": "https://www.youtube.com/watch?v=FUhimQzhk3w",
+      "playlistIndex": 7,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Mapping | EVM Storage 8",
+      "url": "https://www.youtube.com/watch?v=Ha0HE-uwp0M",
+      "playlistIndex": 8,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Nested Mapping | EVM Storage 9",
+      "url": "https://www.youtube.com/watch?v=lk_hiEGhXgU",
+      "playlistIndex": 9,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Mapping of Dynamic Array | EVM Storage 10",
+      "url": "https://www.youtube.com/watch?v=CkJYxORiWKE",
+      "playlistIndex": 10,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Dynamic Array of Structs | EVM Storage 11",
+      "url": "https://www.youtube.com/watch?v=eTtbR8iPjkw",
+      "playlistIndex": 11,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "EVM Memory in Solidity | EVM Memory 1",
+      "url": "https://www.youtube.com/watch?v=L_XtJbBwxWQ",
+      "playlistIndex": 12,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "mstore and mload | EVM Memory 2",
+      "url": "https://www.youtube.com/watch?v=nzj3SDszSBY",
+      "playlistIndex": 13,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Memory Gas Cost | EVM Memory 3",
+      "url": "https://www.youtube.com/watch?v=vye4N60dLiw",
+      "playlistIndex": 14,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Struct | EVM Memory 4",
+      "url": "https://www.youtube.com/watch?v=hGFE7C1MYg8",
+      "playlistIndex": 15,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fixed Size Array | EVM Memory 5",
+      "url": "https://www.youtube.com/watch?v=0qmHQNM0i04",
+      "playlistIndex": 16,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Dynamic Array | EVM Memory 6",
+      "url": "https://www.youtube.com/watch?v=77I2f4HLKWg",
+      "playlistIndex": 17,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "How data is returned from an internal function  | EVM Memory 7",
+      "url": "https://www.youtube.com/watch?v=P3lwyC7hM58",
+      "playlistIndex": 18,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "ABI Encoding  | EVM Memory 8",
+      "url": "https://www.youtube.com/watch?v=V2UmrTydJXU",
+      "playlistIndex": 19,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Return  | EVM Memory 9",
+      "url": "https://www.youtube.com/watch?v=tgdiySvNu2s",
+      "playlistIndex": 20,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Revert  | EVM Memory 10",
+      "url": "https://www.youtube.com/watch?v=ddMPnzZOngQ",
+      "playlistIndex": 21,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Call | EVM Memory 10",
+      "url": "https://www.youtube.com/watch?v=r9kQc79VIfo",
+      "playlistIndex": 22,
+      "uploadInfo": "1 year ago"
+    }
+  ],
+  "sortOrder": "upload",
+  "sortedVideos": [
+    {
+      "title": "Call | EVM Memory 10",
+      "url": "https://www.youtube.com/watch?v=r9kQc79VIfo",
+      "downloadIndex": 1,
+      "playlistIndex": 22
+    },
+    {
+      "title": "Revert  | EVM Memory 10",
+      "url": "https://www.youtube.com/watch?v=ddMPnzZOngQ",
+      "downloadIndex": 2,
+      "playlistIndex": 21
+    },
+    {
+      "title": "Return  | EVM Memory 9",
+      "url": "https://www.youtube.com/watch?v=tgdiySvNu2s",
+      "downloadIndex": 3,
+      "playlistIndex": 20
+    },
+    {
+      "title": "ABI Encoding  | EVM Memory 8",
+      "url": "https://www.youtube.com/watch?v=V2UmrTydJXU",
+      "downloadIndex": 4,
+      "playlistIndex": 19
+    },
+    {
+      "title": "How data is returned from an internal function  | EVM Memory 7",
+      "url": "https://www.youtube.com/watch?v=P3lwyC7hM58",
+      "downloadIndex": 5,
+      "playlistIndex": 18
+    },
+    {
+      "title": "Dynamic Array | EVM Memory 6",
+      "url": "https://www.youtube.com/watch?v=77I2f4HLKWg",
+      "downloadIndex": 6,
+      "playlistIndex": 17
+    },
+    {
+      "title": "Fixed Size Array | EVM Memory 5",
+      "url": "https://www.youtube.com/watch?v=0qmHQNM0i04",
+      "downloadIndex": 7,
+      "playlistIndex": 16
+    },
+    {
+      "title": "Struct | EVM Memory 4",
+      "url": "https://www.youtube.com/watch?v=hGFE7C1MYg8",
+      "downloadIndex": 8,
+      "playlistIndex": 15
+    },
+    {
+      "title": "Memory Gas Cost | EVM Memory 3",
+      "url": "https://www.youtube.com/watch?v=vye4N60dLiw",
+      "downloadIndex": 9,
+      "playlistIndex": 14
+    },
+    {
+      "title": "mstore and mload | EVM Memory 2",
+      "url": "https://www.youtube.com/watch?v=nzj3SDszSBY",
+      "downloadIndex": 10,
+      "playlistIndex": 13
+    },
+    {
+      "title": "EVM Memory in Solidity | EVM Memory 1",
+      "url": "https://www.youtube.com/watch?v=L_XtJbBwxWQ",
+      "downloadIndex": 11,
+      "playlistIndex": 12
+    },
+    {
+      "title": "Dynamic Array of Structs | EVM Storage 11",
+      "url": "https://www.youtube.com/watch?v=eTtbR8iPjkw",
+      "downloadIndex": 12,
+      "playlistIndex": 11
+    },
+    {
+      "title": "Mapping of Dynamic Array | EVM Storage 10",
+      "url": "https://www.youtube.com/watch?v=CkJYxORiWKE",
+      "downloadIndex": 13,
+      "playlistIndex": 10
+    },
+    {
+      "title": "Nested Mapping | EVM Storage 9",
+      "url": "https://www.youtube.com/watch?v=lk_hiEGhXgU",
+      "downloadIndex": 14,
+      "playlistIndex": 9
+    },
+    {
+      "title": "Mapping | EVM Storage 8",
+      "url": "https://www.youtube.com/watch?v=Ha0HE-uwp0M",
+      "downloadIndex": 15,
+      "playlistIndex": 8
+    },
+    {
+      "title": "Dynamic Size Arrays | EVM Storage 7",
+      "url": "https://www.youtube.com/watch?v=FUhimQzhk3w",
+      "downloadIndex": 16,
+      "playlistIndex": 7
+    },
+    {
+      "title": "Fixed Size Arrays | EVM Storage 6",
+      "url": "https://www.youtube.com/watch?v=74vyHBD_L1E",
+      "downloadIndex": 17,
+      "playlistIndex": 6
+    },
+    {
+      "title": "Constants | EVM Storage 5",
+      "url": "https://www.youtube.com/watch?v=JQZu-43MGhI",
+      "downloadIndex": 18,
+      "playlistIndex": 5
+    },
+    {
+      "title": "Structs | EVM Storage 4",
+      "url": "https://www.youtube.com/watch?v=xWkOlxerVJw",
+      "downloadIndex": 19,
+      "playlistIndex": 4
+    },
+    {
+      "title": "State Variables Packed into a Slot | EVM Storage 3",
+      "url": "https://www.youtube.com/watch?v=Z0tC7B4c4Cc",
+      "downloadIndex": 20,
+      "playlistIndex": 3
+    },
+    {
+      "title": "Bit Masking | EVM Storage 2",
+      "url": "https://www.youtube.com/watch?v=luCjY2IQEuw",
+      "downloadIndex": 21,
+      "playlistIndex": 2
+    },
+    {
+      "title": "State Variables Stored in a Single Slot | EVM Storage 1",
+      "url": "https://www.youtube.com/watch?v=vTeav5Rinco",
+      "downloadIndex": 22,
+      "playlistIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "title": "Tools",
+  "channel": "Smart Contract Programmer",
+  "url": "https://youtube.com/playlist?list=PLO5VPQH6OWdXhkOvoptGTyQk3KI2EawUc&si=FuqOQE916BYpyqZQ",
+  "totalVideos": 23,
+  "extractedAt": "2025-10-24T09:41:14.973Z",
+  "videos": [
+    {
+      "title": "Tenderly.co - Get Email Alert on Failed Transaction",
+      "url": "https://www.youtube.com/watch?v=pkD2W44OOjg",
+      "playlistIndex": 1,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Tenderly.co - Simulate Mainnet Transaction",
+      "url": "https://www.youtube.com/watch?v=3zFe5MNBf1g",
+      "playlistIndex": 2,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Tenderly.co - Debug Transaction",
+      "url": "https://www.youtube.com/watch?v=90GN9Ut8LhU",
+      "playlistIndex": 3,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "dapptools",
+      "url": "https://www.youtube.com/watch?v=zaNqnuQ4H8Q",
+      "playlistIndex": 4,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Open Zeppelin Upgradeable Contracts",
+      "url": "https://www.youtube.com/watch?v=JgSj7IiE4jA",
+      "playlistIndex": 5,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Open Zeppelin Upgradeable Contracts - Unsafe Code",
+      "url": "https://www.youtube.com/watch?v=XmxfB5JOt1Q",
+      "playlistIndex": 6,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Fast Forward Time and FFI with dapp.tools",
+      "url": "https://www.youtube.com/watch?v=L8_omSAjRZQ",
+      "playlistIndex": 7,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Open Zeppelin Upgradeable ERC20",
+      "url": "https://www.youtube.com/watch?v=Vt20jCu8OC8",
+      "playlistIndex": 8,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Finding Bugs with Echidna",
+      "url": "https://www.youtube.com/watch?v=vCTnI2nDnAw",
+      "playlistIndex": 9,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Fuzzing Timestamp and Caller with Echidna",
+      "url": "https://www.youtube.com/watch?v=dpK9a4WRXtA",
+      "playlistIndex": 10,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "dapptools - Test calling smart contract from different accounts",
+      "url": "https://www.youtube.com/watch?v=xsRtFppZ6WQ",
+      "playlistIndex": 11,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Debug Remix with Hardhat",
+      "url": "https://www.youtube.com/watch?v=UuD4J7Yrc-A",
+      "playlistIndex": 12,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Verify Smart Contract with Remix",
+      "url": "https://www.youtube.com/watch?v=qz9PD2zttmk",
+      "playlistIndex": 13,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Visualize Solidity Smart Contracts with VS Code Extension",
+      "url": "https://www.youtube.com/watch?v=v3QexBRxPJA",
+      "playlistIndex": 14,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Automatically Execute Hardhat Tests on File Change Using Nodemon",
+      "url": "https://www.youtube.com/watch?v=z2aLKJ2kUjI",
+      "playlistIndex": 15,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Sign Message with Ethers.js and Verify with Solidity Contract",
+      "url": "https://www.youtube.com/watch?v=Y6MtQG6IEGk",
+      "playlistIndex": 16,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Offchain Approval with ERC20 Permit and Ethers.js",
+      "url": "https://www.youtube.com/watch?v=Sib9_yW_rLY",
+      "playlistIndex": 17,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Auto Format Solidity Code in VSCode with Prettier",
+      "url": "https://www.youtube.com/watch?v=PX6xb8sRlFc",
+      "playlistIndex": 18,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Search in VSCode Shortcut",
+      "url": "https://www.youtube.com/watch?v=ekeQVsHpuDk",
+      "playlistIndex": 19,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Unlock Accounts in Hardhat | DeFi",
+      "url": "https://www.youtube.com/watch?v=qOSc1vYqlCQ",
+      "playlistIndex": 20,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Debug Vyper with print() and Hardhat",
+      "url": "https://www.youtube.com/watch?v=8mELjTUDbwQ",
+      "playlistIndex": 21,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "3 Tools to Debug Ethereum Transactions",
+      "url": "https://www.youtube.com/watch?v=K8pRbON17QE",
+      "playlistIndex": 22,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Website to view smart contract storage layout and data",
+      "url": "https://www.youtube.com/watch?v=ABhd2Iv2RgM",
+      "playlistIndex": 23,
+      "uploadInfo": "1 year ago"
+    }
+  ],
+  "sortOrder": "upload",
+  "sortedVideos": [
+    {
+      "title": "Website to view smart contract storage layout and data",
+      "url": "https://www.youtube.com/watch?v=ABhd2Iv2RgM",
+      "downloadIndex": 1,
+      "playlistIndex": 23
+    },
+    {
+      "title": "3 Tools to Debug Ethereum Transactions",
+      "url": "https://www.youtube.com/watch?v=K8pRbON17QE",
+      "downloadIndex": 2,
+      "playlistIndex": 22
+    },
+    {
+      "title": "Debug Vyper with print() and Hardhat",
+      "url": "https://www.youtube.com/watch?v=8mELjTUDbwQ",
+      "downloadIndex": 3,
+      "playlistIndex": 21
+    },
+    {
+      "title": "Unlock Accounts in Hardhat | DeFi",
+      "url": "https://www.youtube.com/watch?v=qOSc1vYqlCQ",
+      "downloadIndex": 4,
+      "playlistIndex": 20
+    },
+    {
+      "title": "Search in VSCode Shortcut",
+      "url": "https://www.youtube.com/watch?v=ekeQVsHpuDk",
+      "downloadIndex": 5,
+      "playlistIndex": 19
+    },
+    {
+      "title": "Auto Format Solidity Code in VSCode with Prettier",
+      "url": "https://www.youtube.com/watch?v=PX6xb8sRlFc",
+      "downloadIndex": 6,
+      "playlistIndex": 18
+    },
+    {
+      "title": "Offchain Approval with ERC20 Permit and Ethers.js",
+      "url": "https://www.youtube.com/watch?v=Sib9_yW_rLY",
+      "downloadIndex": 7,
+      "playlistIndex": 17
+    },
+    {
+      "title": "Sign Message with Ethers.js and Verify with Solidity Contract",
+      "url": "https://www.youtube.com/watch?v=Y6MtQG6IEGk",
+      "downloadIndex": 8,
+      "playlistIndex": 16
+    },
+    {
+      "title": "Automatically Execute Hardhat Tests on File Change Using Nodemon",
+      "url": "https://www.youtube.com/watch?v=z2aLKJ2kUjI",
+      "downloadIndex": 9,
+      "playlistIndex": 15
+    },
+    {
+      "title": "Visualize Solidity Smart Contracts with VS Code Extension",
+      "url": "https://www.youtube.com/watch?v=v3QexBRxPJA",
+      "downloadIndex": 10,
+      "playlistIndex": 14
+    },
+    {
+      "title": "Verify Smart Contract with Remix",
+      "url": "https://www.youtube.com/watch?v=qz9PD2zttmk",
+      "downloadIndex": 11,
+      "playlistIndex": 13
+    },
+    {
+      "title": "Debug Remix with Hardhat",
+      "url": "https://www.youtube.com/watch?v=UuD4J7Yrc-A",
+      "downloadIndex": 12,
+      "playlistIndex": 12
+    },
+    {
+      "title": "dapptools - Test calling smart contract from different accounts",
+      "url": "https://www.youtube.com/watch?v=xsRtFppZ6WQ",
+      "downloadIndex": 13,
+      "playlistIndex": 11
+    },
+    {
+      "title": "Fuzzing Timestamp and Caller with Echidna",
+      "url": "https://www.youtube.com/watch?v=dpK9a4WRXtA",
+      "downloadIndex": 14,
+      "playlistIndex": 10
+    },
+    {
+      "title": "Finding Bugs with Echidna",
+      "url": "https://www.youtube.com/watch?v=vCTnI2nDnAw",
+      "downloadIndex": 15,
+      "playlistIndex": 9
+    },
+    {
+      "title": "Open Zeppelin Upgradeable ERC20",
+      "url": "https://www.youtube.com/watch?v=Vt20jCu8OC8",
+      "downloadIndex": 16,
+      "playlistIndex": 8
+    },
+    {
+      "title": "Fast Forward Time and FFI with dapp.tools",
+      "url": "https://www.youtube.com/watch?v=L8_omSAjRZQ",
+      "downloadIndex": 17,
+      "playlistIndex": 7
+    },
+    {
+      "title": "Open Zeppelin Upgradeable Contracts - Unsafe Code",
+      "url": "https://www.youtube.com/watch?v=XmxfB5JOt1Q",
+      "downloadIndex": 18,
+      "playlistIndex": 6
+    },
+    {
+      "title": "Open Zeppelin Upgradeable Contracts",
+      "url": "https://www.youtube.com/watch?v=JgSj7IiE4jA",
+      "downloadIndex": 19,
+      "playlistIndex": 5
+    },
+    {
+      "title": "dapptools",
+      "url": "https://www.youtube.com/watch?v=zaNqnuQ4H8Q",
+      "downloadIndex": 20,
+      "playlistIndex": 4
+    },
+    {
+      "title": "Tenderly.co - Debug Transaction",
+      "url": "https://www.youtube.com/watch?v=90GN9Ut8LhU",
+      "downloadIndex": 21,
+      "playlistIndex": 3
+    },
+    {
+      "title": "Tenderly.co - Simulate Mainnet Transaction",
+      "url": "https://www.youtube.com/watch?v=3zFe5MNBf1g",
+      "downloadIndex": 22,
+      "playlistIndex": 2
+    },
+    {
+      "title": "Tenderly.co - Get Email Alert on Failed Transaction",
+      "url": "https://www.youtube.com/watch?v=pkD2W44OOjg",
+      "downloadIndex": 23,
+      "playlistIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "title": "Uniswap V3",
+  "channel": "Smart Contract Programmer",
+  "url": "https://youtube.com/playlist?list=PLO5VPQH6OWdXp2_Nk8U7V-zh7suI05i0E&si=8MpQLKxLd0563z8U",
+  "totalVideos": 43,
+  "extractedAt": "2025-10-24T08:10:52.017Z",
+  "videos": [
+    {
+      "title": "Constructor | Uniswap V3 Core Contract Explained - Part 0",
+      "url": "https://www.youtube.com/watch?v=WW_xRGXSr7Q",
+      "playlistIndex": 1,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Price, Tick and Tick Spacing | Uniswap V3 Core Contract Explained - Part 1",
+      "url": "https://www.youtube.com/watch?v=p_buwIBauqk",
+      "playlistIndex": 2,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Max Liquidity Per Tick | Uniswap V3 Core Contract Explained - Part 2",
+      "url": "https://www.youtube.com/watch?v=TLYLHyopqaU",
+      "playlistIndex": 3,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Initialize and Slot 0 | Uniswap V3 Core Contract Explained - Part 3",
+      "url": "https://www.youtube.com/watch?v=KUh_GSrKe_s",
+      "playlistIndex": 4,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Sqrt Price X 96 | Uniswap V3 Core Contract Explained - Part 4",
+      "url": "https://www.youtube.com/watch?v=4ORHTWEQD_c",
+      "playlistIndex": 5,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Sqrt Price X 96 to TIck | Uniswap V3 Core Contract Explained - Part 5",
+      "url": "https://www.youtube.com/watch?v=YNeWPe8HIrQ",
+      "playlistIndex": 6,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Mint | Uniswap V3 Core Contract Explained - Part 6",
+      "url": "https://www.youtube.com/watch?v=KfdjJHIVjGE",
+      "playlistIndex": 7,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Update Position | Uniswap V3 Core Contract Explained - Part 7",
+      "url": "https://www.youtube.com/watch?v=G5TVlfnmaLg",
+      "playlistIndex": 8,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Update Tick | Uniswap V3 Core Contract Explained - Part 8",
+      "url": "https://www.youtube.com/watch?v=6UjNyqujHV8",
+      "playlistIndex": 9,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Liquidity, Price and Token Reservers | Uniswap V3 Core Contract Explained - Part 9",
+      "url": "https://www.youtube.com/watch?v=X6y42QbVSp4",
+      "playlistIndex": 10,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Liquidity Net | Uniswap V3 Core Contract Explained - Part 10",
+      "url": "https://www.youtube.com/watch?v=U_oL8Nr2SjQ",
+      "playlistIndex": 11,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Equation of Real Reserves Curve | Uniswap V3 Core Contract Explained - Part 11",
+      "url": "https://www.youtube.com/watch?v=7dkTNlaM2co",
+      "playlistIndex": 12,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Real Amounts | Uniswap V3 Core Contract Explained - Part 12",
+      "url": "https://www.youtube.com/watch?v=CS9hMKaVNLY",
+      "playlistIndex": 13,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Liquidity | Uniswap V3 Core Contract Explained - Part 13",
+      "url": "https://www.youtube.com/watch?v=dPkrI2VzuAk",
+      "playlistIndex": 14,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Liquidity Delta | Uniswap V3 Core Contract Explained - Part 14",
+      "url": "https://www.youtube.com/watch?v=f6QVx_Ti-pM",
+      "playlistIndex": 15,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Finishing up Modify Position | Uniswap V3 Core Contract Explained - Part 15",
+      "url": "https://www.youtube.com/watch?v=b24q2e8PeJ0",
+      "playlistIndex": 16,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Burn | Uniswap V3 Core Contract Explained - Part 16",
+      "url": "https://www.youtube.com/watch?v=0_pIzAGriJw",
+      "playlistIndex": 17,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Collect | Uniswap V3 Core Contract Explained - Part 17",
+      "url": "https://www.youtube.com/watch?v=cidMXJuqmQc",
+      "playlistIndex": 18,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Compute Swap Step 1 | Uniswap V3 Core Contract Explained - Part 18",
+      "url": "https://www.youtube.com/watch?v=52EXNJVm2Yw",
+      "playlistIndex": 19,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Compute Swap Step 2 | Uniswap V3 Core Contract Explained - Part 19",
+      "url": "https://www.youtube.com/watch?v=VPVL9Eob524",
+      "playlistIndex": 20,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Swap Part 1 | Uniswap V3 Core Contract Explained - Part 20",
+      "url": "https://www.youtube.com/watch?v=d3J65fOHckw",
+      "playlistIndex": 21,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Swap Part 2 | Uniswap V3 Core Contract Explained - Part 21",
+      "url": "https://www.youtube.com/watch?v=2mN8ECdfWOU",
+      "playlistIndex": 22,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Tick Bitmap | Uniswap V3 Core Contract Explained - Part 22",
+      "url": "https://www.youtube.com/watch?v=5GMTf04lLdk",
+      "playlistIndex": 23,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Next Tick | Uniswap V3 Core Contract Explained - Part 23",
+      "url": "https://www.youtube.com/watch?v=g3O_7-aImw4",
+      "playlistIndex": 24,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Tick Bitmap Position and Flip Tick | Uniswap V3 Core Contract Explained - Part 24",
+      "url": "https://www.youtube.com/watch?v=9sHmnwEcn1A",
+      "playlistIndex": 25,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Tick Bitmap Next Initialized Tick | Uniswap V3 Core Contract Explained - Part 25",
+      "url": "https://www.youtube.com/watch?v=fN_jWYZPAdo",
+      "playlistIndex": 26,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Use Tick Bitmap | Uniswap V3 Core Contract Explained - Part 26",
+      "url": "https://www.youtube.com/watch?v=bRm-1avA34I",
+      "playlistIndex": 27,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Swap Part 3 | Uniswap V3 Core Contract Explained - Part 27",
+      "url": "https://www.youtube.com/watch?v=iJGaeDWWnrA",
+      "playlistIndex": 28,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Equation | Uniswap V3 Core Contract Explained - Part 28",
+      "url": "https://www.youtube.com/watch?v=dT_FoDW1EQg",
+      "playlistIndex": 29,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth | Uniswap V3 Core Contract Explained - Part 29",
+      "url": "https://www.youtube.com/watch?v=7tVCmIt0kZA",
+      "playlistIndex": 30,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Inside | Uniswap V3 Core Contract Explained - Part 30",
+      "url": "https://www.youtube.com/watch?v=WcAYDKYUcHM",
+      "playlistIndex": 31,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Below Part 1 | Uniswap V3 Core Contract Explained - Part 31",
+      "url": "https://www.youtube.com/watch?v=iuijf0MxHrI",
+      "playlistIndex": 32,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Below Part 2 | Uniswap V3 Core Contract Explained - Part 32",
+      "url": "https://www.youtube.com/watch?v=l6s9cGOvDcA",
+      "playlistIndex": 33,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Above | Uniswap V3 Core Contract Explained - Part 33",
+      "url": "https://www.youtube.com/watch?v=4XCVXFfGAyg",
+      "playlistIndex": 34,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Initialize Part 1 | Uniswap V3 Core Contract Explained - Part 34",
+      "url": "https://www.youtube.com/watch?v=yfJBQA3GoBA",
+      "playlistIndex": 35,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Initialize Part 2 | Uniswap V3 Core Contract Explained - Part 35",
+      "url": "https://www.youtube.com/watch?v=eDEKDABxilU",
+      "playlistIndex": 36,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Initialize Part 3 | Uniswap V3 Core Contract Explained - Part 36",
+      "url": "https://www.youtube.com/watch?v=8VH8qb67MQo",
+      "playlistIndex": 37,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Initialize Part 4 | Uniswap V3 Core Contract Explained - Part 37",
+      "url": "https://www.youtube.com/watch?v=b9lOMZSeLpI",
+      "playlistIndex": 38,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Initialize Part 5 | Uniswap V3 Core Contract Explained - Part 38",
+      "url": "https://www.youtube.com/watch?v=C4fmSv_kkQY",
+      "playlistIndex": 39,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Inside Tick Library | Uniswap V3 Core Contract Explained - Part 39",
+      "url": "https://www.youtube.com/watch?v=Yf96Lk5W4L8",
+      "playlistIndex": 40,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Inside Position Library | Uniswap V3 Core Contract Explained - Part 40",
+      "url": "https://www.youtube.com/watch?v=ym85v0p0mSY",
+      "playlistIndex": 41,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Uniswap V3 Flash Borrow",
+      "url": "https://www.youtube.com/watch?v=bC80hqAHB8E",
+      "playlistIndex": 42,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Uniswap V3 Arbitrage",
+      "url": "https://www.youtube.com/watch?v=O9TbHoo4pqc",
+      "playlistIndex": 43,
+      "uploadInfo": "1 year ago"
+    }
+  ],
+  "sortOrder": "upload",
+  "sortedVideos": [
+    {
+      "title": "Uniswap V3 Arbitrage",
+      "url": "https://www.youtube.com/watch?v=O9TbHoo4pqc",
+      "downloadIndex": 1,
+      "playlistIndex": 43
+    },
+    {
+      "title": "Uniswap V3 Flash Borrow",
+      "url": "https://www.youtube.com/watch?v=bC80hqAHB8E",
+      "downloadIndex": 2,
+      "playlistIndex": 42
+    },
+    {
+      "title": "Fee Growth Inside Position Library | Uniswap V3 Core Contract Explained - Part 40",
+      "url": "https://www.youtube.com/watch?v=ym85v0p0mSY",
+      "downloadIndex": 3,
+      "playlistIndex": 41
+    },
+    {
+      "title": "Fee Growth Inside Tick Library | Uniswap V3 Core Contract Explained - Part 39",
+      "url": "https://www.youtube.com/watch?v=Yf96Lk5W4L8",
+      "downloadIndex": 4,
+      "playlistIndex": 40
+    },
+    {
+      "title": "Fee Growth Initialize Part 5 | Uniswap V3 Core Contract Explained - Part 38",
+      "url": "https://www.youtube.com/watch?v=C4fmSv_kkQY",
+      "downloadIndex": 5,
+      "playlistIndex": 39
+    },
+    {
+      "title": "Fee Growth Initialize Part 4 | Uniswap V3 Core Contract Explained - Part 37",
+      "url": "https://www.youtube.com/watch?v=b9lOMZSeLpI",
+      "downloadIndex": 6,
+      "playlistIndex": 38
+    },
+    {
+      "title": "Fee Growth Initialize Part 3 | Uniswap V3 Core Contract Explained - Part 36",
+      "url": "https://www.youtube.com/watch?v=8VH8qb67MQo",
+      "downloadIndex": 7,
+      "playlistIndex": 37
+    },
+    {
+      "title": "Fee Growth Initialize Part 2 | Uniswap V3 Core Contract Explained - Part 35",
+      "url": "https://www.youtube.com/watch?v=eDEKDABxilU",
+      "downloadIndex": 8,
+      "playlistIndex": 36
+    },
+    {
+      "title": "Fee Growth Initialize Part 1 | Uniswap V3 Core Contract Explained - Part 34",
+      "url": "https://www.youtube.com/watch?v=yfJBQA3GoBA",
+      "downloadIndex": 9,
+      "playlistIndex": 35
+    },
+    {
+      "title": "Fee Growth Above | Uniswap V3 Core Contract Explained - Part 33",
+      "url": "https://www.youtube.com/watch?v=4XCVXFfGAyg",
+      "downloadIndex": 10,
+      "playlistIndex": 34
+    },
+    {
+      "title": "Fee Growth Below Part 2 | Uniswap V3 Core Contract Explained - Part 32",
+      "url": "https://www.youtube.com/watch?v=l6s9cGOvDcA",
+      "downloadIndex": 11,
+      "playlistIndex": 33
+    },
+    {
+      "title": "Fee Growth Below Part 1 | Uniswap V3 Core Contract Explained - Part 31",
+      "url": "https://www.youtube.com/watch?v=iuijf0MxHrI",
+      "downloadIndex": 12,
+      "playlistIndex": 32
+    },
+    {
+      "title": "Fee Growth Inside | Uniswap V3 Core Contract Explained - Part 30",
+      "url": "https://www.youtube.com/watch?v=WcAYDKYUcHM",
+      "downloadIndex": 13,
+      "playlistIndex": 31
+    },
+    {
+      "title": "Fee Growth | Uniswap V3 Core Contract Explained - Part 29",
+      "url": "https://www.youtube.com/watch?v=7tVCmIt0kZA",
+      "downloadIndex": 14,
+      "playlistIndex": 30
+    },
+    {
+      "title": "Fee Equation | Uniswap V3 Core Contract Explained - Part 28",
+      "url": "https://www.youtube.com/watch?v=dT_FoDW1EQg",
+      "downloadIndex": 15,
+      "playlistIndex": 29
+    },
+    {
+      "title": "Swap Part 3 | Uniswap V3 Core Contract Explained - Part 27",
+      "url": "https://www.youtube.com/watch?v=iJGaeDWWnrA",
+      "downloadIndex": 16,
+      "playlistIndex": 28
+    },
+    {
+      "title": "Use Tick Bitmap | Uniswap V3 Core Contract Explained - Part 26",
+      "url": "https://www.youtube.com/watch?v=bRm-1avA34I",
+      "downloadIndex": 17,
+      "playlistIndex": 27
+    },
+    {
+      "title": "Tick Bitmap Next Initialized Tick | Uniswap V3 Core Contract Explained - Part 25",
+      "url": "https://www.youtube.com/watch?v=fN_jWYZPAdo",
+      "downloadIndex": 18,
+      "playlistIndex": 26
+    },
+    {
+      "title": "Tick Bitmap Position and Flip Tick | Uniswap V3 Core Contract Explained - Part 24",
+      "url": "https://www.youtube.com/watch?v=9sHmnwEcn1A",
+      "downloadIndex": 19,
+      "playlistIndex": 25
+    },
+    {
+      "title": "Next Tick | Uniswap V3 Core Contract Explained - Part 23",
+      "url": "https://www.youtube.com/watch?v=g3O_7-aImw4",
+      "downloadIndex": 20,
+      "playlistIndex": 24
+    },
+    {
+      "title": "Tick Bitmap | Uniswap V3 Core Contract Explained - Part 22",
+      "url": "https://www.youtube.com/watch?v=5GMTf04lLdk",
+      "downloadIndex": 21,
+      "playlistIndex": 23
+    },
+    {
+      "title": "Swap Part 2 | Uniswap V3 Core Contract Explained - Part 21",
+      "url": "https://www.youtube.com/watch?v=2mN8ECdfWOU",
+      "downloadIndex": 22,
+      "playlistIndex": 22
+    },
+    {
+      "title": "Swap Part 1 | Uniswap V3 Core Contract Explained - Part 20",
+      "url": "https://www.youtube.com/watch?v=d3J65fOHckw",
+      "downloadIndex": 23,
+      "playlistIndex": 21
+    },
+    {
+      "title": "Compute Swap Step 2 | Uniswap V3 Core Contract Explained - Part 19",
+      "url": "https://www.youtube.com/watch?v=VPVL9Eob524",
+      "downloadIndex": 24,
+      "playlistIndex": 20
+    },
+    {
+      "title": "Compute Swap Step 1 | Uniswap V3 Core Contract Explained - Part 18",
+      "url": "https://www.youtube.com/watch?v=52EXNJVm2Yw",
+      "downloadIndex": 25,
+      "playlistIndex": 19
+    },
+    {
+      "title": "Collect | Uniswap V3 Core Contract Explained - Part 17",
+      "url": "https://www.youtube.com/watch?v=cidMXJuqmQc",
+      "downloadIndex": 26,
+      "playlistIndex": 18
+    },
+    {
+      "title": "Burn | Uniswap V3 Core Contract Explained - Part 16",
+      "url": "https://www.youtube.com/watch?v=0_pIzAGriJw",
+      "downloadIndex": 27,
+      "playlistIndex": 17
+    },
+    {
+      "title": "Finishing up Modify Position | Uniswap V3 Core Contract Explained - Part 15",
+      "url": "https://www.youtube.com/watch?v=b24q2e8PeJ0",
+      "downloadIndex": 28,
+      "playlistIndex": 16
+    },
+    {
+      "title": "Liquidity Delta | Uniswap V3 Core Contract Explained - Part 14",
+      "url": "https://www.youtube.com/watch?v=f6QVx_Ti-pM",
+      "downloadIndex": 29,
+      "playlistIndex": 15
+    },
+    {
+      "title": "Liquidity | Uniswap V3 Core Contract Explained - Part 13",
+      "url": "https://www.youtube.com/watch?v=dPkrI2VzuAk",
+      "downloadIndex": 30,
+      "playlistIndex": 14
+    },
+    {
+      "title": "Real Amounts | Uniswap V3 Core Contract Explained - Part 12",
+      "url": "https://www.youtube.com/watch?v=CS9hMKaVNLY",
+      "downloadIndex": 31,
+      "playlistIndex": 13
+    },
+    {
+      "title": "Equation of Real Reserves Curve | Uniswap V3 Core Contract Explained - Part 11",
+      "url": "https://www.youtube.com/watch?v=7dkTNlaM2co",
+      "downloadIndex": 32,
+      "playlistIndex": 12
+    },
+    {
+      "title": "Liquidity Net | Uniswap V3 Core Contract Explained - Part 10",
+      "url": "https://www.youtube.com/watch?v=U_oL8Nr2SjQ",
+      "downloadIndex": 33,
+      "playlistIndex": 11
+    },
+    {
+      "title": "Liquidity, Price and Token Reservers | Uniswap V3 Core Contract Explained - Part 9",
+      "url": "https://www.youtube.com/watch?v=X6y42QbVSp4",
+      "downloadIndex": 34,
+      "playlistIndex": 10
+    },
+    {
+      "title": "Update Tick | Uniswap V3 Core Contract Explained - Part 8",
+      "url": "https://www.youtube.com/watch?v=6UjNyqujHV8",
+      "downloadIndex": 35,
+      "playlistIndex": 9
+    },
+    {
+      "title": "Update Position | Uniswap V3 Core Contract Explained - Part 7",
+      "url": "https://www.youtube.com/watch?v=G5TVlfnmaLg",
+      "downloadIndex": 36,
+      "playlistIndex": 8
+    },
+    {
+      "title": "Mint | Uniswap V3 Core Contract Explained - Part 6",
+      "url": "https://www.youtube.com/watch?v=KfdjJHIVjGE",
+      "downloadIndex": 37,
+      "playlistIndex": 7
+    },
+    {
+      "title": "Sqrt Price X 96 to TIck | Uniswap V3 Core Contract Explained - Part 5",
+      "url": "https://www.youtube.com/watch?v=YNeWPe8HIrQ",
+      "downloadIndex": 38,
+      "playlistIndex": 6
+    },
+    {
+      "title": "Sqrt Price X 96 | Uniswap V3 Core Contract Explained - Part 4",
+      "url": "https://www.youtube.com/watch?v=4ORHTWEQD_c",
+      "downloadIndex": 39,
+      "playlistIndex": 5
+    },
+    {
+      "title": "Initialize and Slot 0 | Uniswap V3 Core Contract Explained - Part 3",
+      "url": "https://www.youtube.com/watch?v=KUh_GSrKe_s",
+      "downloadIndex": 40,
+      "playlistIndex": 4
+    },
+    {
+      "title": "Max Liquidity Per Tick | Uniswap V3 Core Contract Explained - Part 2",
+      "url": "https://www.youtube.com/watch?v=TLYLHyopqaU",
+      "downloadIndex": 41,
+      "playlistIndex": 3
+    },
+    {
+      "title": "Price, Tick and Tick Spacing | Uniswap V3 Core Contract Explained - Part 1",
+      "url": "https://www.youtube.com/watch?v=p_buwIBauqk",
+      "downloadIndex": 42,
+      "playlistIndex": 2
+    },
+    {
+      "title": "Constructor | Uniswap V3 Core Contract Explained - Part 0",
+      "url": "https://www.youtube.com/watch?v=WW_xRGXSr7Q",
+      "downloadIndex": 43,
+      "playlistIndex": 1
+    }
+  ]
+}

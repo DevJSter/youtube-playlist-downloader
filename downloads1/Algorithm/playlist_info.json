@@ -1,0 +1,156 @@
+{
+  "title": "Algorithm",
+  "channel": "Smart Contract Programmer",
+  "url": "https://youtube.com/playlist?list=PLO5VPQH6OWdXFEiSgfL0GoS2fZ3ZNoC0_&si=jKJ1SwF5YUl2UBOD",
+  "totalVideos": 12,
+  "extractedAt": "2025-10-24T09:49:49.672Z",
+  "videos": [
+    {
+      "title": "Most Significant Bit with Binary Search | Algorithm",
+      "url": "https://www.youtube.com/watch?v=qslvI7T6Y6E",
+      "playlistIndex": 1,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Most Significant Bit using Binary Search Code | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=M6awK0lskR4",
+      "playlistIndex": 2,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Negative Numbers in Binary - Two's Complement",
+      "url": "https://www.youtube.com/watch?v=g6zTuo1NdTw",
+      "playlistIndex": 3,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Discrete Staking Rewards - Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=mo6rHnDU8us",
+      "playlistIndex": 4,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Algorithm to Approximate Decimal with Binary",
+      "url": "https://www.youtube.com/watch?v=oPeeZp_MpxQ",
+      "playlistIndex": 5,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Algorithm to Approximate Binary Logarithm",
+      "url": "https://www.youtube.com/watch?v=PnsJBsDpcXE",
+      "playlistIndex": 6,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Exponential Moving Average with Irregular Intervals | DeFi",
+      "url": "https://www.youtube.com/watch?v=22pT7rGbEv8",
+      "playlistIndex": 7,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Exponential Moving Average | DeFi",
+      "url": "https://www.youtube.com/watch?v=kdWxpO1ns-4",
+      "playlistIndex": 8,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Binary Exponentiation Explained with 7 Examples",
+      "url": "https://www.youtube.com/watch?v=sW4UoSuKE2w",
+      "playlistIndex": 9,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Caculate Average without Overflow",
+      "url": "https://www.youtube.com/watch?v=TPAvMtgb9zA",
+      "playlistIndex": 10,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Set rightmost 0 to 1 everything else to 0",
+      "url": "https://www.youtube.com/watch?v=0KEI_AWD4RU",
+      "playlistIndex": 11,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Merkle Tree Algorithms",
+      "url": "https://www.youtube.com/watch?v=Xj8Pt-bF4yo",
+      "playlistIndex": 12,
+      "uploadInfo": "4 weeks ago"
+    }
+  ],
+  "sortOrder": "upload",
+  "sortedVideos": [
+    {
+      "title": "Merkle Tree Algorithms",
+      "url": "https://www.youtube.com/watch?v=Xj8Pt-bF4yo",
+      "downloadIndex": 1,
+      "playlistIndex": 12
+    },
+    {
+      "title": "Set rightmost 0 to 1 everything else to 0",
+      "url": "https://www.youtube.com/watch?v=0KEI_AWD4RU",
+      "downloadIndex": 2,
+      "playlistIndex": 11
+    },
+    {
+      "title": "Caculate Average without Overflow",
+      "url": "https://www.youtube.com/watch?v=TPAvMtgb9zA",
+      "downloadIndex": 3,
+      "playlistIndex": 10
+    },
+    {
+      "title": "Binary Exponentiation Explained with 7 Examples",
+      "url": "https://www.youtube.com/watch?v=sW4UoSuKE2w",
+      "downloadIndex": 4,
+      "playlistIndex": 9
+    },
+    {
+      "title": "Exponential Moving Average | DeFi",
+      "url": "https://www.youtube.com/watch?v=kdWxpO1ns-4",
+      "downloadIndex": 5,
+      "playlistIndex": 8
+    },
+    {
+      "title": "Exponential Moving Average with Irregular Intervals | DeFi",
+      "url": "https://www.youtube.com/watch?v=22pT7rGbEv8",
+      "downloadIndex": 6,
+      "playlistIndex": 7
+    },
+    {
+      "title": "Algorithm to Approximate Binary Logarithm",
+      "url": "https://www.youtube.com/watch?v=PnsJBsDpcXE",
+      "downloadIndex": 7,
+      "playlistIndex": 6
+    },
+    {
+      "title": "Algorithm to Approximate Decimal with Binary",
+      "url": "https://www.youtube.com/watch?v=oPeeZp_MpxQ",
+      "downloadIndex": 8,
+      "playlistIndex": 5
+    },
+    {
+      "title": "Discrete Staking Rewards - Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=mo6rHnDU8us",
+      "downloadIndex": 9,
+      "playlistIndex": 4
+    },
+    {
+      "title": "Negative Numbers in Binary - Two's Complement",
+      "url": "https://www.youtube.com/watch?v=g6zTuo1NdTw",
+      "downloadIndex": 10,
+      "playlistIndex": 3
+    },
+    {
+      "title": "Most Significant Bit using Binary Search Code | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=M6awK0lskR4",
+      "downloadIndex": 11,
+      "playlistIndex": 2
+    },
+    {
+      "title": "Most Significant Bit with Binary Search | Algorithm",
+      "url": "https://www.youtube.com/watch?v=qslvI7T6Y6E",
+      "downloadIndex": 12,
+      "playlistIndex": 1
+    }
+  ]
+}
