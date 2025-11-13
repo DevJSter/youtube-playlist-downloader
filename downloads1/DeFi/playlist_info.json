@@ -1,0 +1,1608 @@
+{
+  "title": "DeFi",
+  "channel": "Smart Contract Programmer",
+  "url": "https://youtube.com/playlist?list=PLO5VPQH6OWdX-Rh7RonjZhOd9pb9zOnHW&si=fordeuy3g3xBkVqI",
+  "totalVideos": 133,
+  "extractedAt": "2025-10-24T05:59:29.440Z",
+  "videos": [
+    {
+      "title": "Uniswap V2 - Swap Tokens | DeFi",
+      "url": "https://www.youtube.com/watch?v=qB2Ulx201wY",
+      "playlistIndex": 1,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Uniswap V2 - Pricing | DeFi",
+      "url": "https://www.youtube.com/watch?v=IL7cRj5vzEU",
+      "playlistIndex": 2,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Uniswap V2 - Add Liquidity | DeFi",
+      "url": "https://www.youtube.com/watch?v=816kTTNzcHs",
+      "playlistIndex": 3,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Uniswap V2 - How Much Tokens Can I Add to Liquidity Pool | DeFi",
+      "url": "https://www.youtube.com/watch?v=YfLmaCaVYn8",
+      "playlistIndex": 4,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Uniswap V2 - Optimal One-sided Supply | DeFi",
+      "url": "https://www.youtube.com/watch?v=1ivHqueaTVo",
+      "playlistIndex": 5,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Curve - Exchange | DeFi",
+      "url": "https://www.youtube.com/watch?v=uB78gRsE5cI",
+      "playlistIndex": 6,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Curve - Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=GuD3jkPgPgU",
+      "playlistIndex": 7,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Curve - Code Explaind - get_y() | DeFi",
+      "url": "https://www.youtube.com/watch?v=jAhKbxoeskQ",
+      "playlistIndex": 8,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Curve - How to Add and Remove Liquidity | DeFi",
+      "url": "https://www.youtube.com/watch?v=uYvgwdhN_Ys",
+      "playlistIndex": 9,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Aave - Flash Loan | DeFi",
+      "url": "https://www.youtube.com/watch?v=_GZHt-FVAQs",
+      "playlistIndex": 10,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Uniswap V2 - Flash Swap | DeFi",
+      "url": "https://www.youtube.com/watch?v=MxTgk-kvtRM",
+      "playlistIndex": 11,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "DyDx - Flash Loan | DeFi",
+      "url": "https://www.youtube.com/watch?v=HKx89FhZNls",
+      "playlistIndex": 12,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "WETH - Flash Mint | DeFi",
+      "url": "https://www.youtube.com/watch?v=4a-vutuyTUU",
+      "playlistIndex": 13,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Compound - Supply and Redeem | DeFi",
+      "url": "https://www.youtube.com/watch?v=dHKLcbqFzvE",
+      "playlistIndex": 14,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Compound - Borrow and Repay | DeFi",
+      "url": "https://www.youtube.com/watch?v=d9_ZEvLDSl8",
+      "playlistIndex": 15,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Compound - Liquidation | DeFi",
+      "url": "https://www.youtube.com/watch?v=w-oVV0Ie3Fw",
+      "playlistIndex": 16,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Compound - Long and Short | DeFi",
+      "url": "https://www.youtube.com/watch?v=pl6iNIL72kY",
+      "playlistIndex": 17,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "How to Use Tornado Cash | DeFi + Zero Knowledge Proof",
+      "url": "https://www.youtube.com/watch?v=kpxHq2Nwzrc",
+      "playlistIndex": 18,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Tornado Cash - How it Works | DeFi + Zero Knowledge Proof",
+      "url": "https://www.youtube.com/watch?v=z_cRicXX1jI",
+      "playlistIndex": 19,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Synthetix Staking Rewards Contract Explained - Part 0 - Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=6ZO5aYg1GI8",
+      "playlistIndex": 20,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Synthetix Staking Rewards Contract Explained - Part 1 - More Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=LWWsjw3cgDk",
+      "playlistIndex": 21,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Synthetix Staking Rewards Contract Explained - Part 2 - Algorithm | DeFi",
+      "url": "https://www.youtube.com/watch?v=YqpRwJDz3xg",
+      "playlistIndex": 22,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Synthetix Staking Rewards Contract Explained - Part 3 - Code | DeFi",
+      "url": "https://www.youtube.com/watch?v=pFX1-kNrJFU",
+      "playlistIndex": 23,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Unstoppable - Damn Vulnerable DeFi | CTF",
+      "url": "https://www.youtube.com/watch?v=A5s9aez43Co",
+      "playlistIndex": 24,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Chainlink - Price Oracle | DeFi",
+      "url": "https://www.youtube.com/watch?v=PSJarTvQvtE",
+      "playlistIndex": 25,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Time Weighted Average Price Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=FNpkUNHHn7c",
+      "playlistIndex": 26,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V2 Price Oracle | DeFi",
+      "url": "https://www.youtube.com/watch?v=Ar4Ik7Bov0U",
+      "playlistIndex": 27,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Constant Product AMM Spot Price | DeFi",
+      "url": "https://www.youtube.com/watch?v=a56XeddkOtA",
+      "playlistIndex": 28,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Constant Product AMM Spot Price Examples | DeFi",
+      "url": "https://www.youtube.com/watch?v=bppm8CjW3_o",
+      "playlistIndex": 29,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V3 TWAP Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=X08RCcon1Iw",
+      "playlistIndex": 30,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V3 Price Oracle | DeFi",
+      "url": "https://www.youtube.com/watch?v=tGW8MoiNj54",
+      "playlistIndex": 31,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Geometric Mean",
+      "url": "https://www.youtube.com/watch?v=mIyEJsUmXpU",
+      "playlistIndex": 32,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V3 TWAP and Geometric Mean",
+      "url": "https://www.youtube.com/watch?v=XwPkXAeIppk",
+      "playlistIndex": 33,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V3 TWAP Inverse Price",
+      "url": "https://www.youtube.com/watch?v=CBqEdVsyk-g",
+      "playlistIndex": 34,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "WETH | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=UqKQ1bTatUs",
+      "playlistIndex": 35,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Vault Math - How much shares to mint? How much token to withdraw? | DeFi",
+      "url": "https://www.youtube.com/watch?v=k7WNibJOBXE",
+      "playlistIndex": 36,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Vault | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=HHoa0c3AOqo",
+      "playlistIndex": 37,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Constant Sum AMM Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=-JhgcqvyYeM",
+      "playlistIndex": 38,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Constant Sum Automated Market Maker | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=Luff_OGvYtI",
+      "playlistIndex": 39,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Constant Product AMM Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=QNPyFs8Wybk",
+      "playlistIndex": 40,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V3 - Single Hop Swap | DeFi",
+      "url": "https://www.youtube.com/watch?v=f5Fuhm_8FjE",
+      "playlistIndex": 41,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V3 - Multi Hop Swap | DeFi",
+      "url": "https://www.youtube.com/watch?v=zwSjnutqB0o",
+      "playlistIndex": 42,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Unlock Accounts in Hardhat | DeFi",
+      "url": "https://www.youtube.com/watch?v=qOSc1vYqlCQ",
+      "playlistIndex": 43,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Constant Product Automated Market Maker | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=JSZbvmyi_LE",
+      "playlistIndex": 44,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "How to Calculate Impermanent Loss on Uniswap V2 | DeFi",
+      "url": "https://www.youtube.com/watch?v=jIB4ne9jU04",
+      "playlistIndex": 45,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V3 - Add Liquidity - Mint New Position | DeFi",
+      "url": "https://www.youtube.com/watch?v=rCMuRfsqJnk",
+      "playlistIndex": 46,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Staking Rewards - Intro | DeFi",
+      "url": "https://www.youtube.com/watch?v=rXuDelwHLoo",
+      "playlistIndex": 47,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Staking Rewards - Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=b7F9q9Jsfvw",
+      "playlistIndex": 48,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Staking Rewards - Math Examples 1 | DeFi",
+      "url": "https://www.youtube.com/watch?v=oJOsdDJRNVw",
+      "playlistIndex": 49,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Staking Rewards - Math 2 | DeFi",
+      "url": "https://www.youtube.com/watch?v=fKa98Ak6q_A",
+      "playlistIndex": 50,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Staking Rewards - Math Examples 2 | DeFi",
+      "url": "https://www.youtube.com/watch?v=32n3Vu0BK4g",
+      "playlistIndex": 51,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Staking Rewards - Algorithm | DeFi",
+      "url": "https://www.youtube.com/watch?v=NsKZZ3OrlSA",
+      "playlistIndex": 52,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Staking Rewards | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=OJ-IRzCYSXI",
+      "playlistIndex": 53,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Staking Rewards - Math, Examples and Algorithm | DeFi",
+      "url": "https://www.youtube.com/watch?v=iNZWMj4USUM",
+      "playlistIndex": 54,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V3 - Curve of Real Reserves | DeFi",
+      "url": "https://www.youtube.com/watch?v=7dD405ncoGg",
+      "playlistIndex": 55,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V3 - Collect Fees | DeFi",
+      "url": "https://www.youtube.com/watch?v=LvYDVNOJun8",
+      "playlistIndex": 56,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V3 - Liquidity | DeFi",
+      "url": "https://www.youtube.com/watch?v=_asFkMz4zhw",
+      "playlistIndex": 57,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V3 - Increase Liquidity | DeFi",
+      "url": "https://www.youtube.com/watch?v=mBxCxMvPkxM",
+      "playlistIndex": 58,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V3 - Decrease Liquidity | DeFi",
+      "url": "https://www.youtube.com/watch?v=cSiLxcfxLno",
+      "playlistIndex": 59,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V2 - Liquidity Delta | DeFi",
+      "url": "https://www.youtube.com/watch?v=H5xknLDXOu4",
+      "playlistIndex": 60,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V3 - Liquidity Delta | DeFi",
+      "url": "https://www.youtube.com/watch?v=gw3z1D1TeF0",
+      "playlistIndex": 61,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V3 - How Many Tokens to Add? | DeFi",
+      "url": "https://www.youtube.com/watch?v=watG_wDJM-Y",
+      "playlistIndex": 62,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V3 - How to Calculate Price of ETH from sqrtPriceX96? | DeFi",
+      "url": "https://www.youtube.com/watch?v=hKhdQl126Ys",
+      "playlistIndex": 63,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V3 - Tick and SqrtPriceX96 | DeFi",
+      "url": "https://www.youtube.com/watch?v=p7LIEr8hVCA",
+      "playlistIndex": 64,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Read Only Reentrancy | Hack Solidity (0.8)",
+      "url": "https://www.youtube.com/watch?v=0fgGTRlsDxI",
+      "playlistIndex": 65,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Uniswap V3 - Price Change from a Swap",
+      "url": "https://www.youtube.com/watch?v=wKMayX0SoUE",
+      "playlistIndex": 66,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Discrete Staking Rewards - Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=mo6rHnDU8us",
+      "playlistIndex": 67,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Discrete Staking Rewards | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=_I1n1WbRz7o",
+      "playlistIndex": 68,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Uniswap V3 Liquidity Price Graph | DeFi",
+      "url": "https://www.youtube.com/watch?v=fH7pzX_DpHQ",
+      "playlistIndex": 69,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Uniswap V3 - ETH / USDC Liquidity Graph Explained | DeFi",
+      "url": "https://www.youtube.com/watch?v=hf0fPW3MkHM",
+      "playlistIndex": 70,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Arbitrage Profit for Constant Product AMM | DeFi",
+      "url": "https://www.youtube.com/watch?v=XQVCNjPlgig",
+      "playlistIndex": 71,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Uniswap V3 Capital Efficiency | DeFi",
+      "url": "https://www.youtube.com/watch?v=QyUoEG_wBN8",
+      "playlistIndex": 72,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Uniswap V3 Just In Time Liquidity | DeFi",
+      "url": "https://www.youtube.com/watch?v=JfX4IWQnElY",
+      "playlistIndex": 73,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "RAI - Non-pegged Decentralized Stablecoin | DeFi",
+      "url": "https://www.youtube.com/watch?v=5gGqSLpzdAU",
+      "playlistIndex": 74,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "RAI - How to Borrow and Repay RAI | DeFi",
+      "url": "https://www.youtube.com/watch?v=t--7UgS0cKw",
+      "playlistIndex": 75,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "RAI - How RAI Price is Stabilized | DeFi",
+      "url": "https://www.youtube.com/watch?v=YF0FMdvkxCE",
+      "playlistIndex": 76,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Exponential Moving Average | DeFi",
+      "url": "https://www.youtube.com/watch?v=kdWxpO1ns-4",
+      "playlistIndex": 77,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Curve V1 AMM Equation Explained | DeFi",
+      "url": "https://www.youtube.com/watch?v=oUqFeJPnq3s",
+      "playlistIndex": 78,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Exponential Moving Average with Irregular Intervals | DeFi",
+      "url": "https://www.youtube.com/watch?v=22pT7rGbEv8",
+      "playlistIndex": 79,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Deploy Different Contracts at Same Address | Hack Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=zYaHtUJN-MI",
+      "playlistIndex": 80,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "ERC1155 Intro",
+      "url": "https://www.youtube.com/watch?v=Ai7A-_umm08",
+      "playlistIndex": 81,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Constructor | Uniswap V3 Core Contract Explained - Part 0",
+      "url": "https://www.youtube.com/watch?v=WW_xRGXSr7Q",
+      "playlistIndex": 82,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Price, Tick and Tick Spacing | Uniswap V3 Core Contract Explained - Part 1",
+      "url": "https://www.youtube.com/watch?v=p_buwIBauqk",
+      "playlistIndex": 83,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Max Liquidity Per Tick | Uniswap V3 Core Contract Explained - Part 2",
+      "url": "https://www.youtube.com/watch?v=TLYLHyopqaU",
+      "playlistIndex": 84,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Initialize and Slot 0 | Uniswap V3 Core Contract Explained - Part 3",
+      "url": "https://www.youtube.com/watch?v=KUh_GSrKe_s",
+      "playlistIndex": 85,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Sqrt Price X 96 | Uniswap V3 Core Contract Explained - Part 4",
+      "url": "https://www.youtube.com/watch?v=4ORHTWEQD_c",
+      "playlistIndex": 86,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Sqrt Price X 96 to TIck | Uniswap V3 Core Contract Explained - Part 5",
+      "url": "https://www.youtube.com/watch?v=YNeWPe8HIrQ",
+      "playlistIndex": 87,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Mint | Uniswap V3 Core Contract Explained - Part 6",
+      "url": "https://www.youtube.com/watch?v=KfdjJHIVjGE",
+      "playlistIndex": 88,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Update Position | Uniswap V3 Core Contract Explained - Part 7",
+      "url": "https://www.youtube.com/watch?v=G5TVlfnmaLg",
+      "playlistIndex": 89,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Update Tick | Uniswap V3 Core Contract Explained - Part 8",
+      "url": "https://www.youtube.com/watch?v=6UjNyqujHV8",
+      "playlistIndex": 90,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Liquidity, Price and Token Reservers | Uniswap V3 Core Contract Explained - Part 9",
+      "url": "https://www.youtube.com/watch?v=X6y42QbVSp4",
+      "playlistIndex": 91,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Liquidity Net | Uniswap V3 Core Contract Explained - Part 10",
+      "url": "https://www.youtube.com/watch?v=U_oL8Nr2SjQ",
+      "playlistIndex": 92,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Equation of Real Reserves Curve | Uniswap V3 Core Contract Explained - Part 11",
+      "url": "https://www.youtube.com/watch?v=7dkTNlaM2co",
+      "playlistIndex": 93,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Real Amounts | Uniswap V3 Core Contract Explained - Part 12",
+      "url": "https://www.youtube.com/watch?v=CS9hMKaVNLY",
+      "playlistIndex": 94,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Liquidity | Uniswap V3 Core Contract Explained - Part 13",
+      "url": "https://www.youtube.com/watch?v=dPkrI2VzuAk",
+      "playlistIndex": 95,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Liquidity Delta | Uniswap V3 Core Contract Explained - Part 14",
+      "url": "https://www.youtube.com/watch?v=f6QVx_Ti-pM",
+      "playlistIndex": 96,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Finishing up Modify Position | Uniswap V3 Core Contract Explained - Part 15",
+      "url": "https://www.youtube.com/watch?v=b24q2e8PeJ0",
+      "playlistIndex": 97,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Burn | Uniswap V3 Core Contract Explained - Part 16",
+      "url": "https://www.youtube.com/watch?v=0_pIzAGriJw",
+      "playlistIndex": 98,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Collect | Uniswap V3 Core Contract Explained - Part 17",
+      "url": "https://www.youtube.com/watch?v=cidMXJuqmQc",
+      "playlistIndex": 99,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Compute Swap Step 1 | Uniswap V3 Core Contract Explained - Part 18",
+      "url": "https://www.youtube.com/watch?v=52EXNJVm2Yw",
+      "playlistIndex": 100,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Compute Swap Step 2 | Uniswap V3 Core Contract Explained - Part 19",
+      "url": "https://www.youtube.com/watch?v=VPVL9Eob524",
+      "playlistIndex": 101,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Swap Part 1 | Uniswap V3 Core Contract Explained - Part 20",
+      "url": "https://www.youtube.com/watch?v=d3J65fOHckw",
+      "playlistIndex": 102,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Swap Part 2 | Uniswap V3 Core Contract Explained - Part 21",
+      "url": "https://www.youtube.com/watch?v=2mN8ECdfWOU",
+      "playlistIndex": 103,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Tick Bitmap | Uniswap V3 Core Contract Explained - Part 22",
+      "url": "https://www.youtube.com/watch?v=5GMTf04lLdk",
+      "playlistIndex": 104,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Next Tick | Uniswap V3 Core Contract Explained - Part 23",
+      "url": "https://www.youtube.com/watch?v=g3O_7-aImw4",
+      "playlistIndex": 105,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Tick Bitmap Position and Flip Tick | Uniswap V3 Core Contract Explained - Part 24",
+      "url": "https://www.youtube.com/watch?v=9sHmnwEcn1A",
+      "playlistIndex": 106,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Tick Bitmap Next Initialized Tick | Uniswap V3 Core Contract Explained - Part 25",
+      "url": "https://www.youtube.com/watch?v=fN_jWYZPAdo",
+      "playlistIndex": 107,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Use Tick Bitmap | Uniswap V3 Core Contract Explained - Part 26",
+      "url": "https://www.youtube.com/watch?v=bRm-1avA34I",
+      "playlistIndex": 108,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Swap Part 3 | Uniswap V3 Core Contract Explained - Part 27",
+      "url": "https://www.youtube.com/watch?v=iJGaeDWWnrA",
+      "playlistIndex": 109,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Equation | Uniswap V3 Core Contract Explained - Part 28",
+      "url": "https://www.youtube.com/watch?v=dT_FoDW1EQg",
+      "playlistIndex": 110,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth | Uniswap V3 Core Contract Explained - Part 29",
+      "url": "https://www.youtube.com/watch?v=7tVCmIt0kZA",
+      "playlistIndex": 111,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Inside | Uniswap V3 Core Contract Explained - Part 30",
+      "url": "https://www.youtube.com/watch?v=WcAYDKYUcHM",
+      "playlistIndex": 112,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Below Part 1 | Uniswap V3 Core Contract Explained - Part 31",
+      "url": "https://www.youtube.com/watch?v=iuijf0MxHrI",
+      "playlistIndex": 113,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Below Part 2 | Uniswap V3 Core Contract Explained - Part 32",
+      "url": "https://www.youtube.com/watch?v=l6s9cGOvDcA",
+      "playlistIndex": 114,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Above | Uniswap V3 Core Contract Explained - Part 33",
+      "url": "https://www.youtube.com/watch?v=4XCVXFfGAyg",
+      "playlistIndex": 115,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Initialize Part 1 | Uniswap V3 Core Contract Explained - Part 34",
+      "url": "https://www.youtube.com/watch?v=yfJBQA3GoBA",
+      "playlistIndex": 116,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Initialize Part 2 | Uniswap V3 Core Contract Explained - Part 35",
+      "url": "https://www.youtube.com/watch?v=eDEKDABxilU",
+      "playlistIndex": 117,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Initialize Part 3 | Uniswap V3 Core Contract Explained - Part 36",
+      "url": "https://www.youtube.com/watch?v=8VH8qb67MQo",
+      "playlistIndex": 118,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Initialize Part 4 | Uniswap V3 Core Contract Explained - Part 37",
+      "url": "https://www.youtube.com/watch?v=b9lOMZSeLpI",
+      "playlistIndex": 119,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Initialize Part 5 | Uniswap V3 Core Contract Explained - Part 38",
+      "url": "https://www.youtube.com/watch?v=C4fmSv_kkQY",
+      "playlistIndex": 120,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Option Payoffs",
+      "url": "https://www.youtube.com/watch?v=kJBtMLmtCI8",
+      "playlistIndex": 121,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Inside Tick Library | Uniswap V3 Core Contract Explained - Part 39",
+      "url": "https://www.youtube.com/watch?v=Yf96Lk5W4L8",
+      "playlistIndex": 122,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Fee Growth Inside Position Library | Uniswap V3 Core Contract Explained - Part 40",
+      "url": "https://www.youtube.com/watch?v=ym85v0p0mSY",
+      "playlistIndex": 123,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Uniswap V2 Arbitrage Optimal Amount In",
+      "url": "https://www.youtube.com/watch?v=9EKksG-fF1k",
+      "playlistIndex": 124,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Uniswap V3 Arbitrage",
+      "url": "https://www.youtube.com/watch?v=O9TbHoo4pqc",
+      "playlistIndex": 125,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Deep Dive DAI Stablecoin System",
+      "url": "https://www.youtube.com/watch?v=lsTouzJUsUk",
+      "playlistIndex": 126,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "GemJoin | Rewrite DAI stablecoin | part 1",
+      "url": "https://www.youtube.com/watch?v=15N2zHrcIPE",
+      "playlistIndex": 127,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "vat.slip | Rewrite DAI stablecoin | part 2",
+      "url": "https://www.youtube.com/watch?v=PGgHLg2Vggc",
+      "playlistIndex": 128,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "DaiJoin | Rewrite DAI stablecoin | part 3",
+      "url": "https://www.youtube.com/watch?v=O8ZmewChgLg",
+      "playlistIndex": 129,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "vat.move | Rewrite DAI stablecoin | part 4",
+      "url": "https://www.youtube.com/watch?v=T-WSaIUao_o",
+      "playlistIndex": 130,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Uniswap V2 Course Cyfrin Updraft",
+      "url": "https://www.youtube.com/watch?v=t0NZq8SmywU",
+      "playlistIndex": 131,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Algorithm to calculate DAI stability fee | Rewrite DAI stablecoin | part 5",
+      "url": "https://www.youtube.com/watch?v=LHXim2cCUvs",
+      "playlistIndex": 132,
+      "uploadInfo": "1 year ago"
+    },
+    {
+      "title": "Curve V1 Course Cyfrin Updraft",
+      "url": "https://www.youtube.com/watch?v=w_zjZfkwva0",
+      "playlistIndex": 133,
+      "uploadInfo": "11 months ago"
+    }
+  ],
+  "sortOrder": "upload",
+  "sortedVideos": [
+    {
+      "title": "Curve V1 Course Cyfrin Updraft",
+      "url": "https://www.youtube.com/watch?v=w_zjZfkwva0",
+      "downloadIndex": 1,
+      "playlistIndex": 133
+    },
+    {
+      "title": "Algorithm to calculate DAI stability fee | Rewrite DAI stablecoin | part 5",
+      "url": "https://www.youtube.com/watch?v=LHXim2cCUvs",
+      "downloadIndex": 2,
+      "playlistIndex": 132
+    },
+    {
+      "title": "Uniswap V2 Course Cyfrin Updraft",
+      "url": "https://www.youtube.com/watch?v=t0NZq8SmywU",
+      "downloadIndex": 3,
+      "playlistIndex": 131
+    },
+    {
+      "title": "vat.move | Rewrite DAI stablecoin | part 4",
+      "url": "https://www.youtube.com/watch?v=T-WSaIUao_o",
+      "downloadIndex": 4,
+      "playlistIndex": 130
+    },
+    {
+      "title": "DaiJoin | Rewrite DAI stablecoin | part 3",
+      "url": "https://www.youtube.com/watch?v=O8ZmewChgLg",
+      "downloadIndex": 5,
+      "playlistIndex": 129
+    },
+    {
+      "title": "vat.slip | Rewrite DAI stablecoin | part 2",
+      "url": "https://www.youtube.com/watch?v=PGgHLg2Vggc",
+      "downloadIndex": 6,
+      "playlistIndex": 128
+    },
+    {
+      "title": "GemJoin | Rewrite DAI stablecoin | part 1",
+      "url": "https://www.youtube.com/watch?v=15N2zHrcIPE",
+      "downloadIndex": 7,
+      "playlistIndex": 127
+    },
+    {
+      "title": "Deep Dive DAI Stablecoin System",
+      "url": "https://www.youtube.com/watch?v=lsTouzJUsUk",
+      "downloadIndex": 8,
+      "playlistIndex": 126
+    },
+    {
+      "title": "Uniswap V3 Arbitrage",
+      "url": "https://www.youtube.com/watch?v=O9TbHoo4pqc",
+      "downloadIndex": 9,
+      "playlistIndex": 125
+    },
+    {
+      "title": "Uniswap V2 Arbitrage Optimal Amount In",
+      "url": "https://www.youtube.com/watch?v=9EKksG-fF1k",
+      "downloadIndex": 10,
+      "playlistIndex": 124
+    },
+    {
+      "title": "Fee Growth Inside Position Library | Uniswap V3 Core Contract Explained - Part 40",
+      "url": "https://www.youtube.com/watch?v=ym85v0p0mSY",
+      "downloadIndex": 11,
+      "playlistIndex": 123
+    },
+    {
+      "title": "Fee Growth Inside Tick Library | Uniswap V3 Core Contract Explained - Part 39",
+      "url": "https://www.youtube.com/watch?v=Yf96Lk5W4L8",
+      "downloadIndex": 12,
+      "playlistIndex": 122
+    },
+    {
+      "title": "Option Payoffs",
+      "url": "https://www.youtube.com/watch?v=kJBtMLmtCI8",
+      "downloadIndex": 13,
+      "playlistIndex": 121
+    },
+    {
+      "title": "Fee Growth Initialize Part 5 | Uniswap V3 Core Contract Explained - Part 38",
+      "url": "https://www.youtube.com/watch?v=C4fmSv_kkQY",
+      "downloadIndex": 14,
+      "playlistIndex": 120
+    },
+    {
+      "title": "Fee Growth Initialize Part 4 | Uniswap V3 Core Contract Explained - Part 37",
+      "url": "https://www.youtube.com/watch?v=b9lOMZSeLpI",
+      "downloadIndex": 15,
+      "playlistIndex": 119
+    },
+    {
+      "title": "Fee Growth Initialize Part 3 | Uniswap V3 Core Contract Explained - Part 36",
+      "url": "https://www.youtube.com/watch?v=8VH8qb67MQo",
+      "downloadIndex": 16,
+      "playlistIndex": 118
+    },
+    {
+      "title": "Fee Growth Initialize Part 2 | Uniswap V3 Core Contract Explained - Part 35",
+      "url": "https://www.youtube.com/watch?v=eDEKDABxilU",
+      "downloadIndex": 17,
+      "playlistIndex": 117
+    },
+    {
+      "title": "Fee Growth Initialize Part 1 | Uniswap V3 Core Contract Explained - Part 34",
+      "url": "https://www.youtube.com/watch?v=yfJBQA3GoBA",
+      "downloadIndex": 18,
+      "playlistIndex": 116
+    },
+    {
+      "title": "Fee Growth Above | Uniswap V3 Core Contract Explained - Part 33",
+      "url": "https://www.youtube.com/watch?v=4XCVXFfGAyg",
+      "downloadIndex": 19,
+      "playlistIndex": 115
+    },
+    {
+      "title": "Fee Growth Below Part 2 | Uniswap V3 Core Contract Explained - Part 32",
+      "url": "https://www.youtube.com/watch?v=l6s9cGOvDcA",
+      "downloadIndex": 20,
+      "playlistIndex": 114
+    },
+    {
+      "title": "Fee Growth Below Part 1 | Uniswap V3 Core Contract Explained - Part 31",
+      "url": "https://www.youtube.com/watch?v=iuijf0MxHrI",
+      "downloadIndex": 21,
+      "playlistIndex": 113
+    },
+    {
+      "title": "Fee Growth Inside | Uniswap V3 Core Contract Explained - Part 30",
+      "url": "https://www.youtube.com/watch?v=WcAYDKYUcHM",
+      "downloadIndex": 22,
+      "playlistIndex": 112
+    },
+    {
+      "title": "Fee Growth | Uniswap V3 Core Contract Explained - Part 29",
+      "url": "https://www.youtube.com/watch?v=7tVCmIt0kZA",
+      "downloadIndex": 23,
+      "playlistIndex": 111
+    },
+    {
+      "title": "Fee Equation | Uniswap V3 Core Contract Explained - Part 28",
+      "url": "https://www.youtube.com/watch?v=dT_FoDW1EQg",
+      "downloadIndex": 24,
+      "playlistIndex": 110
+    },
+    {
+      "title": "Swap Part 3 | Uniswap V3 Core Contract Explained - Part 27",
+      "url": "https://www.youtube.com/watch?v=iJGaeDWWnrA",
+      "downloadIndex": 25,
+      "playlistIndex": 109
+    },
+    {
+      "title": "Use Tick Bitmap | Uniswap V3 Core Contract Explained - Part 26",
+      "url": "https://www.youtube.com/watch?v=bRm-1avA34I",
+      "downloadIndex": 26,
+      "playlistIndex": 108
+    },
+    {
+      "title": "Tick Bitmap Next Initialized Tick | Uniswap V3 Core Contract Explained - Part 25",
+      "url": "https://www.youtube.com/watch?v=fN_jWYZPAdo",
+      "downloadIndex": 27,
+      "playlistIndex": 107
+    },
+    {
+      "title": "Tick Bitmap Position and Flip Tick | Uniswap V3 Core Contract Explained - Part 24",
+      "url": "https://www.youtube.com/watch?v=9sHmnwEcn1A",
+      "downloadIndex": 28,
+      "playlistIndex": 106
+    },
+    {
+      "title": "Next Tick | Uniswap V3 Core Contract Explained - Part 23",
+      "url": "https://www.youtube.com/watch?v=g3O_7-aImw4",
+      "downloadIndex": 29,
+      "playlistIndex": 105
+    },
+    {
+      "title": "Tick Bitmap | Uniswap V3 Core Contract Explained - Part 22",
+      "url": "https://www.youtube.com/watch?v=5GMTf04lLdk",
+      "downloadIndex": 30,
+      "playlistIndex": 104
+    },
+    {
+      "title": "Swap Part 2 | Uniswap V3 Core Contract Explained - Part 21",
+      "url": "https://www.youtube.com/watch?v=2mN8ECdfWOU",
+      "downloadIndex": 31,
+      "playlistIndex": 103
+    },
+    {
+      "title": "Swap Part 1 | Uniswap V3 Core Contract Explained - Part 20",
+      "url": "https://www.youtube.com/watch?v=d3J65fOHckw",
+      "downloadIndex": 32,
+      "playlistIndex": 102
+    },
+    {
+      "title": "Compute Swap Step 2 | Uniswap V3 Core Contract Explained - Part 19",
+      "url": "https://www.youtube.com/watch?v=VPVL9Eob524",
+      "downloadIndex": 33,
+      "playlistIndex": 101
+    },
+    {
+      "title": "Compute Swap Step 1 | Uniswap V3 Core Contract Explained - Part 18",
+      "url": "https://www.youtube.com/watch?v=52EXNJVm2Yw",
+      "downloadIndex": 34,
+      "playlistIndex": 100
+    },
+    {
+      "title": "Collect | Uniswap V3 Core Contract Explained - Part 17",
+      "url": "https://www.youtube.com/watch?v=cidMXJuqmQc",
+      "downloadIndex": 35,
+      "playlistIndex": 99
+    },
+    {
+      "title": "Burn | Uniswap V3 Core Contract Explained - Part 16",
+      "url": "https://www.youtube.com/watch?v=0_pIzAGriJw",
+      "downloadIndex": 36,
+      "playlistIndex": 98
+    },
+    {
+      "title": "Finishing up Modify Position | Uniswap V3 Core Contract Explained - Part 15",
+      "url": "https://www.youtube.com/watch?v=b24q2e8PeJ0",
+      "downloadIndex": 37,
+      "playlistIndex": 97
+    },
+    {
+      "title": "Liquidity Delta | Uniswap V3 Core Contract Explained - Part 14",
+      "url": "https://www.youtube.com/watch?v=f6QVx_Ti-pM",
+      "downloadIndex": 38,
+      "playlistIndex": 96
+    },
+    {
+      "title": "Liquidity | Uniswap V3 Core Contract Explained - Part 13",
+      "url": "https://www.youtube.com/watch?v=dPkrI2VzuAk",
+      "downloadIndex": 39,
+      "playlistIndex": 95
+    },
+    {
+      "title": "Real Amounts | Uniswap V3 Core Contract Explained - Part 12",
+      "url": "https://www.youtube.com/watch?v=CS9hMKaVNLY",
+      "downloadIndex": 40,
+      "playlistIndex": 94
+    },
+    {
+      "title": "Equation of Real Reserves Curve | Uniswap V3 Core Contract Explained - Part 11",
+      "url": "https://www.youtube.com/watch?v=7dkTNlaM2co",
+      "downloadIndex": 41,
+      "playlistIndex": 93
+    },
+    {
+      "title": "Liquidity Net | Uniswap V3 Core Contract Explained - Part 10",
+      "url": "https://www.youtube.com/watch?v=U_oL8Nr2SjQ",
+      "downloadIndex": 42,
+      "playlistIndex": 92
+    },
+    {
+      "title": "Liquidity, Price and Token Reservers | Uniswap V3 Core Contract Explained - Part 9",
+      "url": "https://www.youtube.com/watch?v=X6y42QbVSp4",
+      "downloadIndex": 43,
+      "playlistIndex": 91
+    },
+    {
+      "title": "Update Tick | Uniswap V3 Core Contract Explained - Part 8",
+      "url": "https://www.youtube.com/watch?v=6UjNyqujHV8",
+      "downloadIndex": 44,
+      "playlistIndex": 90
+    },
+    {
+      "title": "Update Position | Uniswap V3 Core Contract Explained - Part 7",
+      "url": "https://www.youtube.com/watch?v=G5TVlfnmaLg",
+      "downloadIndex": 45,
+      "playlistIndex": 89
+    },
+    {
+      "title": "Mint | Uniswap V3 Core Contract Explained - Part 6",
+      "url": "https://www.youtube.com/watch?v=KfdjJHIVjGE",
+      "downloadIndex": 46,
+      "playlistIndex": 88
+    },
+    {
+      "title": "Sqrt Price X 96 to TIck | Uniswap V3 Core Contract Explained - Part 5",
+      "url": "https://www.youtube.com/watch?v=YNeWPe8HIrQ",
+      "downloadIndex": 47,
+      "playlistIndex": 87
+    },
+    {
+      "title": "Sqrt Price X 96 | Uniswap V3 Core Contract Explained - Part 4",
+      "url": "https://www.youtube.com/watch?v=4ORHTWEQD_c",
+      "downloadIndex": 48,
+      "playlistIndex": 86
+    },
+    {
+      "title": "Initialize and Slot 0 | Uniswap V3 Core Contract Explained - Part 3",
+      "url": "https://www.youtube.com/watch?v=KUh_GSrKe_s",
+      "downloadIndex": 49,
+      "playlistIndex": 85
+    },
+    {
+      "title": "Max Liquidity Per Tick | Uniswap V3 Core Contract Explained - Part 2",
+      "url": "https://www.youtube.com/watch?v=TLYLHyopqaU",
+      "downloadIndex": 50,
+      "playlistIndex": 84
+    },
+    {
+      "title": "Price, Tick and Tick Spacing | Uniswap V3 Core Contract Explained - Part 1",
+      "url": "https://www.youtube.com/watch?v=p_buwIBauqk",
+      "downloadIndex": 51,
+      "playlistIndex": 83
+    },
+    {
+      "title": "Constructor | Uniswap V3 Core Contract Explained - Part 0",
+      "url": "https://www.youtube.com/watch?v=WW_xRGXSr7Q",
+      "downloadIndex": 52,
+      "playlistIndex": 82
+    },
+    {
+      "title": "ERC1155 Intro",
+      "url": "https://www.youtube.com/watch?v=Ai7A-_umm08",
+      "downloadIndex": 53,
+      "playlistIndex": 81
+    },
+    {
+      "title": "Deploy Different Contracts at Same Address | Hack Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=zYaHtUJN-MI",
+      "downloadIndex": 54,
+      "playlistIndex": 80
+    },
+    {
+      "title": "Exponential Moving Average with Irregular Intervals | DeFi",
+      "url": "https://www.youtube.com/watch?v=22pT7rGbEv8",
+      "downloadIndex": 55,
+      "playlistIndex": 79
+    },
+    {
+      "title": "Curve V1 AMM Equation Explained | DeFi",
+      "url": "https://www.youtube.com/watch?v=oUqFeJPnq3s",
+      "downloadIndex": 56,
+      "playlistIndex": 78
+    },
+    {
+      "title": "Exponential Moving Average | DeFi",
+      "url": "https://www.youtube.com/watch?v=kdWxpO1ns-4",
+      "downloadIndex": 57,
+      "playlistIndex": 77
+    },
+    {
+      "title": "RAI - How RAI Price is Stabilized | DeFi",
+      "url": "https://www.youtube.com/watch?v=YF0FMdvkxCE",
+      "downloadIndex": 58,
+      "playlistIndex": 76
+    },
+    {
+      "title": "RAI - How to Borrow and Repay RAI | DeFi",
+      "url": "https://www.youtube.com/watch?v=t--7UgS0cKw",
+      "downloadIndex": 59,
+      "playlistIndex": 75
+    },
+    {
+      "title": "RAI - Non-pegged Decentralized Stablecoin | DeFi",
+      "url": "https://www.youtube.com/watch?v=5gGqSLpzdAU",
+      "downloadIndex": 60,
+      "playlistIndex": 74
+    },
+    {
+      "title": "Uniswap V3 Just In Time Liquidity | DeFi",
+      "url": "https://www.youtube.com/watch?v=JfX4IWQnElY",
+      "downloadIndex": 61,
+      "playlistIndex": 73
+    },
+    {
+      "title": "Uniswap V3 Capital Efficiency | DeFi",
+      "url": "https://www.youtube.com/watch?v=QyUoEG_wBN8",
+      "downloadIndex": 62,
+      "playlistIndex": 72
+    },
+    {
+      "title": "Arbitrage Profit for Constant Product AMM | DeFi",
+      "url": "https://www.youtube.com/watch?v=XQVCNjPlgig",
+      "downloadIndex": 63,
+      "playlistIndex": 71
+    },
+    {
+      "title": "Uniswap V3 - ETH / USDC Liquidity Graph Explained | DeFi",
+      "url": "https://www.youtube.com/watch?v=hf0fPW3MkHM",
+      "downloadIndex": 64,
+      "playlistIndex": 70
+    },
+    {
+      "title": "Uniswap V3 Liquidity Price Graph | DeFi",
+      "url": "https://www.youtube.com/watch?v=fH7pzX_DpHQ",
+      "downloadIndex": 65,
+      "playlistIndex": 69
+    },
+    {
+      "title": "Discrete Staking Rewards | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=_I1n1WbRz7o",
+      "downloadIndex": 66,
+      "playlistIndex": 68
+    },
+    {
+      "title": "Discrete Staking Rewards - Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=mo6rHnDU8us",
+      "downloadIndex": 67,
+      "playlistIndex": 67
+    },
+    {
+      "title": "Uniswap V3 - Price Change from a Swap",
+      "url": "https://www.youtube.com/watch?v=wKMayX0SoUE",
+      "downloadIndex": 68,
+      "playlistIndex": 66
+    },
+    {
+      "title": "Read Only Reentrancy | Hack Solidity (0.8)",
+      "url": "https://www.youtube.com/watch?v=0fgGTRlsDxI",
+      "downloadIndex": 69,
+      "playlistIndex": 65
+    },
+    {
+      "title": "Uniswap V3 - Tick and SqrtPriceX96 | DeFi",
+      "url": "https://www.youtube.com/watch?v=p7LIEr8hVCA",
+      "downloadIndex": 70,
+      "playlistIndex": 64
+    },
+    {
+      "title": "Uniswap V3 - How to Calculate Price of ETH from sqrtPriceX96? | DeFi",
+      "url": "https://www.youtube.com/watch?v=hKhdQl126Ys",
+      "downloadIndex": 71,
+      "playlistIndex": 63
+    },
+    {
+      "title": "Uniswap V3 - How Many Tokens to Add? | DeFi",
+      "url": "https://www.youtube.com/watch?v=watG_wDJM-Y",
+      "downloadIndex": 72,
+      "playlistIndex": 62
+    },
+    {
+      "title": "Uniswap V3 - Liquidity Delta | DeFi",
+      "url": "https://www.youtube.com/watch?v=gw3z1D1TeF0",
+      "downloadIndex": 73,
+      "playlistIndex": 61
+    },
+    {
+      "title": "Uniswap V2 - Liquidity Delta | DeFi",
+      "url": "https://www.youtube.com/watch?v=H5xknLDXOu4",
+      "downloadIndex": 74,
+      "playlistIndex": 60
+    },
+    {
+      "title": "Uniswap V3 - Decrease Liquidity | DeFi",
+      "url": "https://www.youtube.com/watch?v=cSiLxcfxLno",
+      "downloadIndex": 75,
+      "playlistIndex": 59
+    },
+    {
+      "title": "Uniswap V3 - Increase Liquidity | DeFi",
+      "url": "https://www.youtube.com/watch?v=mBxCxMvPkxM",
+      "downloadIndex": 76,
+      "playlistIndex": 58
+    },
+    {
+      "title": "Uniswap V3 - Liquidity | DeFi",
+      "url": "https://www.youtube.com/watch?v=_asFkMz4zhw",
+      "downloadIndex": 77,
+      "playlistIndex": 57
+    },
+    {
+      "title": "Uniswap V3 - Collect Fees | DeFi",
+      "url": "https://www.youtube.com/watch?v=LvYDVNOJun8",
+      "downloadIndex": 78,
+      "playlistIndex": 56
+    },
+    {
+      "title": "Uniswap V3 - Curve of Real Reserves | DeFi",
+      "url": "https://www.youtube.com/watch?v=7dD405ncoGg",
+      "downloadIndex": 79,
+      "playlistIndex": 55
+    },
+    {
+      "title": "Staking Rewards - Math, Examples and Algorithm | DeFi",
+      "url": "https://www.youtube.com/watch?v=iNZWMj4USUM",
+      "downloadIndex": 80,
+      "playlistIndex": 54
+    },
+    {
+      "title": "Staking Rewards | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=OJ-IRzCYSXI",
+      "downloadIndex": 81,
+      "playlistIndex": 53
+    },
+    {
+      "title": "Staking Rewards - Algorithm | DeFi",
+      "url": "https://www.youtube.com/watch?v=NsKZZ3OrlSA",
+      "downloadIndex": 82,
+      "playlistIndex": 52
+    },
+    {
+      "title": "Staking Rewards - Math Examples 2 | DeFi",
+      "url": "https://www.youtube.com/watch?v=32n3Vu0BK4g",
+      "downloadIndex": 83,
+      "playlistIndex": 51
+    },
+    {
+      "title": "Staking Rewards - Math 2 | DeFi",
+      "url": "https://www.youtube.com/watch?v=fKa98Ak6q_A",
+      "downloadIndex": 84,
+      "playlistIndex": 50
+    },
+    {
+      "title": "Staking Rewards - Math Examples 1 | DeFi",
+      "url": "https://www.youtube.com/watch?v=oJOsdDJRNVw",
+      "downloadIndex": 85,
+      "playlistIndex": 49
+    },
+    {
+      "title": "Staking Rewards - Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=b7F9q9Jsfvw",
+      "downloadIndex": 86,
+      "playlistIndex": 48
+    },
+    {
+      "title": "Staking Rewards - Intro | DeFi",
+      "url": "https://www.youtube.com/watch?v=rXuDelwHLoo",
+      "downloadIndex": 87,
+      "playlistIndex": 47
+    },
+    {
+      "title": "Uniswap V3 - Add Liquidity - Mint New Position | DeFi",
+      "url": "https://www.youtube.com/watch?v=rCMuRfsqJnk",
+      "downloadIndex": 88,
+      "playlistIndex": 46
+    },
+    {
+      "title": "How to Calculate Impermanent Loss on Uniswap V2 | DeFi",
+      "url": "https://www.youtube.com/watch?v=jIB4ne9jU04",
+      "downloadIndex": 89,
+      "playlistIndex": 45
+    },
+    {
+      "title": "Constant Product Automated Market Maker | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=JSZbvmyi_LE",
+      "downloadIndex": 90,
+      "playlistIndex": 44
+    },
+    {
+      "title": "Unlock Accounts in Hardhat | DeFi",
+      "url": "https://www.youtube.com/watch?v=qOSc1vYqlCQ",
+      "downloadIndex": 91,
+      "playlistIndex": 43
+    },
+    {
+      "title": "Uniswap V3 - Multi Hop Swap | DeFi",
+      "url": "https://www.youtube.com/watch?v=zwSjnutqB0o",
+      "downloadIndex": 92,
+      "playlistIndex": 42
+    },
+    {
+      "title": "Uniswap V3 - Single Hop Swap | DeFi",
+      "url": "https://www.youtube.com/watch?v=f5Fuhm_8FjE",
+      "downloadIndex": 93,
+      "playlistIndex": 41
+    },
+    {
+      "title": "Constant Product AMM Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=QNPyFs8Wybk",
+      "downloadIndex": 94,
+      "playlistIndex": 40
+    },
+    {
+      "title": "Constant Sum Automated Market Maker | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=Luff_OGvYtI",
+      "downloadIndex": 95,
+      "playlistIndex": 39
+    },
+    {
+      "title": "Constant Sum AMM Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=-JhgcqvyYeM",
+      "downloadIndex": 96,
+      "playlistIndex": 38
+    },
+    {
+      "title": "Vault | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=HHoa0c3AOqo",
+      "downloadIndex": 97,
+      "playlistIndex": 37
+    },
+    {
+      "title": "Vault Math - How much shares to mint? How much token to withdraw? | DeFi",
+      "url": "https://www.youtube.com/watch?v=k7WNibJOBXE",
+      "downloadIndex": 98,
+      "playlistIndex": 36
+    },
+    {
+      "title": "WETH | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=UqKQ1bTatUs",
+      "downloadIndex": 99,
+      "playlistIndex": 35
+    },
+    {
+      "title": "Uniswap V3 TWAP Inverse Price",
+      "url": "https://www.youtube.com/watch?v=CBqEdVsyk-g",
+      "downloadIndex": 100,
+      "playlistIndex": 34
+    },
+    {
+      "title": "Uniswap V3 TWAP and Geometric Mean",
+      "url": "https://www.youtube.com/watch?v=XwPkXAeIppk",
+      "downloadIndex": 101,
+      "playlistIndex": 33
+    },
+    {
+      "title": "Geometric Mean",
+      "url": "https://www.youtube.com/watch?v=mIyEJsUmXpU",
+      "downloadIndex": 102,
+      "playlistIndex": 32
+    },
+    {
+      "title": "Uniswap V3 Price Oracle | DeFi",
+      "url": "https://www.youtube.com/watch?v=tGW8MoiNj54",
+      "downloadIndex": 103,
+      "playlistIndex": 31
+    },
+    {
+      "title": "Uniswap V3 TWAP Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=X08RCcon1Iw",
+      "downloadIndex": 104,
+      "playlistIndex": 30
+    },
+    {
+      "title": "Constant Product AMM Spot Price Examples | DeFi",
+      "url": "https://www.youtube.com/watch?v=bppm8CjW3_o",
+      "downloadIndex": 105,
+      "playlistIndex": 29
+    },
+    {
+      "title": "Constant Product AMM Spot Price | DeFi",
+      "url": "https://www.youtube.com/watch?v=a56XeddkOtA",
+      "downloadIndex": 106,
+      "playlistIndex": 28
+    },
+    {
+      "title": "Uniswap V2 Price Oracle | DeFi",
+      "url": "https://www.youtube.com/watch?v=Ar4Ik7Bov0U",
+      "downloadIndex": 107,
+      "playlistIndex": 27
+    },
+    {
+      "title": "Time Weighted Average Price Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=FNpkUNHHn7c",
+      "downloadIndex": 108,
+      "playlistIndex": 26
+    },
+    {
+      "title": "Chainlink - Price Oracle | DeFi",
+      "url": "https://www.youtube.com/watch?v=PSJarTvQvtE",
+      "downloadIndex": 109,
+      "playlistIndex": 25
+    },
+    {
+      "title": "Unstoppable - Damn Vulnerable DeFi | CTF",
+      "url": "https://www.youtube.com/watch?v=A5s9aez43Co",
+      "downloadIndex": 110,
+      "playlistIndex": 24
+    },
+    {
+      "title": "Synthetix Staking Rewards Contract Explained - Part 3 - Code | DeFi",
+      "url": "https://www.youtube.com/watch?v=pFX1-kNrJFU",
+      "downloadIndex": 111,
+      "playlistIndex": 23
+    },
+    {
+      "title": "Synthetix Staking Rewards Contract Explained - Part 2 - Algorithm | DeFi",
+      "url": "https://www.youtube.com/watch?v=YqpRwJDz3xg",
+      "downloadIndex": 112,
+      "playlistIndex": 22
+    },
+    {
+      "title": "Synthetix Staking Rewards Contract Explained - Part 1 - More Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=LWWsjw3cgDk",
+      "downloadIndex": 113,
+      "playlistIndex": 21
+    },
+    {
+      "title": "Synthetix Staking Rewards Contract Explained - Part 0 - Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=6ZO5aYg1GI8",
+      "downloadIndex": 114,
+      "playlistIndex": 20
+    },
+    {
+      "title": "Tornado Cash - How it Works | DeFi + Zero Knowledge Proof",
+      "url": "https://www.youtube.com/watch?v=z_cRicXX1jI",
+      "downloadIndex": 115,
+      "playlistIndex": 19
+    },
+    {
+      "title": "How to Use Tornado Cash | DeFi + Zero Knowledge Proof",
+      "url": "https://www.youtube.com/watch?v=kpxHq2Nwzrc",
+      "downloadIndex": 116,
+      "playlistIndex": 18
+    },
+    {
+      "title": "Compound - Long and Short | DeFi",
+      "url": "https://www.youtube.com/watch?v=pl6iNIL72kY",
+      "downloadIndex": 117,
+      "playlistIndex": 17
+    },
+    {
+      "title": "Compound - Liquidation | DeFi",
+      "url": "https://www.youtube.com/watch?v=w-oVV0Ie3Fw",
+      "downloadIndex": 118,
+      "playlistIndex": 16
+    },
+    {
+      "title": "Compound - Borrow and Repay | DeFi",
+      "url": "https://www.youtube.com/watch?v=d9_ZEvLDSl8",
+      "downloadIndex": 119,
+      "playlistIndex": 15
+    },
+    {
+      "title": "Compound - Supply and Redeem | DeFi",
+      "url": "https://www.youtube.com/watch?v=dHKLcbqFzvE",
+      "downloadIndex": 120,
+      "playlistIndex": 14
+    },
+    {
+      "title": "WETH - Flash Mint | DeFi",
+      "url": "https://www.youtube.com/watch?v=4a-vutuyTUU",
+      "downloadIndex": 121,
+      "playlistIndex": 13
+    },
+    {
+      "title": "DyDx - Flash Loan | DeFi",
+      "url": "https://www.youtube.com/watch?v=HKx89FhZNls",
+      "downloadIndex": 122,
+      "playlistIndex": 12
+    },
+    {
+      "title": "Uniswap V2 - Flash Swap | DeFi",
+      "url": "https://www.youtube.com/watch?v=MxTgk-kvtRM",
+      "downloadIndex": 123,
+      "playlistIndex": 11
+    },
+    {
+      "title": "Aave - Flash Loan | DeFi",
+      "url": "https://www.youtube.com/watch?v=_GZHt-FVAQs",
+      "downloadIndex": 124,
+      "playlistIndex": 10
+    },
+    {
+      "title": "Curve - How to Add and Remove Liquidity | DeFi",
+      "url": "https://www.youtube.com/watch?v=uYvgwdhN_Ys",
+      "downloadIndex": 125,
+      "playlistIndex": 9
+    },
+    {
+      "title": "Curve - Code Explaind - get_y() | DeFi",
+      "url": "https://www.youtube.com/watch?v=jAhKbxoeskQ",
+      "downloadIndex": 126,
+      "playlistIndex": 8
+    },
+    {
+      "title": "Curve - Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=GuD3jkPgPgU",
+      "downloadIndex": 127,
+      "playlistIndex": 7
+    },
+    {
+      "title": "Curve - Exchange | DeFi",
+      "url": "https://www.youtube.com/watch?v=uB78gRsE5cI",
+      "downloadIndex": 128,
+      "playlistIndex": 6
+    },
+    {
+      "title": "Uniswap V2 - Optimal One-sided Supply | DeFi",
+      "url": "https://www.youtube.com/watch?v=1ivHqueaTVo",
+      "downloadIndex": 129,
+      "playlistIndex": 5
+    },
+    {
+      "title": "Uniswap V2 - How Much Tokens Can I Add to Liquidity Pool | DeFi",
+      "url": "https://www.youtube.com/watch?v=YfLmaCaVYn8",
+      "downloadIndex": 130,
+      "playlistIndex": 4
+    },
+    {
+      "title": "Uniswap V2 - Add Liquidity | DeFi",
+      "url": "https://www.youtube.com/watch?v=816kTTNzcHs",
+      "downloadIndex": 131,
+      "playlistIndex": 3
+    },
+    {
+      "title": "Uniswap V2 - Pricing | DeFi",
+      "url": "https://www.youtube.com/watch?v=IL7cRj5vzEU",
+      "downloadIndex": 132,
+      "playlistIndex": 2
+    },
+    {
+      "title": "Uniswap V2 - Swap Tokens | DeFi",
+      "url": "https://www.youtube.com/watch?v=qB2Ulx201wY",
+      "downloadIndex": 133,
+      "playlistIndex": 1
+    }
+  ]
+}

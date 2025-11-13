@@ -1,0 +1,420 @@
+{
+  "title": "Security",
+  "channel": "Smart Contract Programmer",
+  "url": "https://youtube.com/playlist?list=PLO5VPQH6OWdXxQc_1YPa63Ody9LknKW4k&si=u2C4E1wquoSZy9s_",
+  "totalVideos": 34,
+  "extractedAt": "2025-10-24T09:26:37.778Z",
+  "videos": [
+    {
+      "title": "Tenderly.co - Get Email Alert on Failed Transaction",
+      "url": "https://www.youtube.com/watch?v=pkD2W44OOjg",
+      "playlistIndex": 1,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Tenderly.co - Simulate Mainnet Transaction",
+      "url": "https://www.youtube.com/watch?v=3zFe5MNBf1g",
+      "playlistIndex": 2,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Tenderly.co - Debug Transaction",
+      "url": "https://www.youtube.com/watch?v=90GN9Ut8LhU",
+      "playlistIndex": 3,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Flashbots - Protect Your Transaction from Sandwich Attacks",
+      "url": "https://www.youtube.com/watch?v=Zt15wrSDVxc",
+      "playlistIndex": 4,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Finding Bugs with Echidna",
+      "url": "https://www.youtube.com/watch?v=vCTnI2nDnAw",
+      "playlistIndex": 5,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Fuzzing Timestamp and Caller with Echidna",
+      "url": "https://www.youtube.com/watch?v=dpK9a4WRXtA",
+      "playlistIndex": 6,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Ethernaut 01 - Fallback",
+      "url": "https://www.youtube.com/watch?v=TQKj2xvsGec",
+      "playlistIndex": 7,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 02 - Fallout",
+      "url": "https://www.youtube.com/watch?v=1E0BTVudurM",
+      "playlistIndex": 8,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 03 - Coin Flip",
+      "url": "https://www.youtube.com/watch?v=Bye55YkzZyM",
+      "playlistIndex": 9,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 04 - Telephone",
+      "url": "https://www.youtube.com/watch?v=9WibNKo2akI",
+      "playlistIndex": 10,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 05 - Token",
+      "url": "https://www.youtube.com/watch?v=IxSK_OMVqu4",
+      "playlistIndex": 11,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 06 - Delegation",
+      "url": "https://www.youtube.com/watch?v=hUUasVqBhQY",
+      "playlistIndex": 12,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 07 - Force",
+      "url": "https://www.youtube.com/watch?v=3sdkTFn1NC8",
+      "playlistIndex": 13,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 08 - Vault",
+      "url": "https://www.youtube.com/watch?v=ZQ6ff2NxHeM",
+      "playlistIndex": 14,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 09 - King",
+      "url": "https://www.youtube.com/watch?v=df6x81mMw_g",
+      "playlistIndex": 15,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 10 - Re-entrancy",
+      "url": "https://www.youtube.com/watch?v=K8AFyNiuTXs",
+      "playlistIndex": 16,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 11 - Elevator",
+      "url": "https://www.youtube.com/watch?v=IfljmOqThvI",
+      "playlistIndex": 17,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 12 - Privacy",
+      "url": "https://www.youtube.com/watch?v=qe-0NkENi-I",
+      "playlistIndex": 18,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 13 - Gatekeeper One",
+      "url": "https://www.youtube.com/watch?v=hOQWIIx5SRc",
+      "playlistIndex": 19,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 14 - Gatekeeper Two",
+      "url": "https://www.youtube.com/watch?v=BgFammIHN5s",
+      "playlistIndex": 20,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 15 - Naught Coin",
+      "url": "https://www.youtube.com/watch?v=f4QDmG2Cgc0",
+      "playlistIndex": 21,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 16 - Preservation",
+      "url": "https://www.youtube.com/watch?v=uw4u_1P4ung",
+      "playlistIndex": 22,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 18 - MagicNumber",
+      "url": "https://www.youtube.com/watch?v=gUVS4EcrQQQ",
+      "playlistIndex": 23,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 19 - Alien Codex",
+      "url": "https://www.youtube.com/watch?v=2onc3F6Lbg0",
+      "playlistIndex": 24,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 20 - Denial",
+      "url": "https://www.youtube.com/watch?v=Lx0L_3RuJ8c",
+      "playlistIndex": 25,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 21 - Shop",
+      "url": "https://www.youtube.com/watch?v=sUJtO1Pxllo",
+      "playlistIndex": 26,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 22 - Dex",
+      "url": "https://www.youtube.com/watch?v=WD1vriVWVE4",
+      "playlistIndex": 27,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 23 - Dex 2",
+      "url": "https://www.youtube.com/watch?v=nGgzdWpEh9c",
+      "playlistIndex": 28,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 24 - Puzzle Wallet",
+      "url": "https://www.youtube.com/watch?v=Ya6sjmHK7t8",
+      "playlistIndex": 29,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 25 - Motorbike",
+      "url": "https://www.youtube.com/watch?v=IvsBeCoxdio",
+      "playlistIndex": 30,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Ethernaut 27 - Good Samaritan",
+      "url": "https://www.youtube.com/watch?v=WEi5qWMei0w",
+      "playlistIndex": 31,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Tornado Cash Hack - How to Deploy Different Contracts At the Same Address | DeFi",
+      "url": "https://www.youtube.com/watch?v=whjRc4H-rAc",
+      "playlistIndex": 32,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Deploy Different Contracts at Same Address | Hack Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=zYaHtUJN-MI",
+      "playlistIndex": 33,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "3 Tools to Debug Ethereum Transactions",
+      "url": "https://www.youtube.com/watch?v=K8pRbON17QE",
+      "playlistIndex": 34,
+      "uploadInfo": "2 years ago"
+    }
+  ],
+  "sortOrder": "upload",
+  "sortedVideos": [
+    {
+      "title": "3 Tools to Debug Ethereum Transactions",
+      "url": "https://www.youtube.com/watch?v=K8pRbON17QE",
+      "downloadIndex": 1,
+      "playlistIndex": 34
+    },
+    {
+      "title": "Deploy Different Contracts at Same Address | Hack Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=zYaHtUJN-MI",
+      "downloadIndex": 2,
+      "playlistIndex": 33
+    },
+    {
+      "title": "Tornado Cash Hack - How to Deploy Different Contracts At the Same Address | DeFi",
+      "url": "https://www.youtube.com/watch?v=whjRc4H-rAc",
+      "downloadIndex": 3,
+      "playlistIndex": 32
+    },
+    {
+      "title": "Ethernaut 27 - Good Samaritan",
+      "url": "https://www.youtube.com/watch?v=WEi5qWMei0w",
+      "downloadIndex": 4,
+      "playlistIndex": 31
+    },
+    {
+      "title": "Ethernaut 25 - Motorbike",
+      "url": "https://www.youtube.com/watch?v=IvsBeCoxdio",
+      "downloadIndex": 5,
+      "playlistIndex": 30
+    },
+    {
+      "title": "Ethernaut 24 - Puzzle Wallet",
+      "url": "https://www.youtube.com/watch?v=Ya6sjmHK7t8",
+      "downloadIndex": 6,
+      "playlistIndex": 29
+    },
+    {
+      "title": "Ethernaut 23 - Dex 2",
+      "url": "https://www.youtube.com/watch?v=nGgzdWpEh9c",
+      "downloadIndex": 7,
+      "playlistIndex": 28
+    },
+    {
+      "title": "Ethernaut 22 - Dex",
+      "url": "https://www.youtube.com/watch?v=WD1vriVWVE4",
+      "downloadIndex": 8,
+      "playlistIndex": 27
+    },
+    {
+      "title": "Ethernaut 21 - Shop",
+      "url": "https://www.youtube.com/watch?v=sUJtO1Pxllo",
+      "downloadIndex": 9,
+      "playlistIndex": 26
+    },
+    {
+      "title": "Ethernaut 20 - Denial",
+      "url": "https://www.youtube.com/watch?v=Lx0L_3RuJ8c",
+      "downloadIndex": 10,
+      "playlistIndex": 25
+    },
+    {
+      "title": "Ethernaut 19 - Alien Codex",
+      "url": "https://www.youtube.com/watch?v=2onc3F6Lbg0",
+      "downloadIndex": 11,
+      "playlistIndex": 24
+    },
+    {
+      "title": "Ethernaut 18 - MagicNumber",
+      "url": "https://www.youtube.com/watch?v=gUVS4EcrQQQ",
+      "downloadIndex": 12,
+      "playlistIndex": 23
+    },
+    {
+      "title": "Ethernaut 16 - Preservation",
+      "url": "https://www.youtube.com/watch?v=uw4u_1P4ung",
+      "downloadIndex": 13,
+      "playlistIndex": 22
+    },
+    {
+      "title": "Ethernaut 15 - Naught Coin",
+      "url": "https://www.youtube.com/watch?v=f4QDmG2Cgc0",
+      "downloadIndex": 14,
+      "playlistIndex": 21
+    },
+    {
+      "title": "Ethernaut 14 - Gatekeeper Two",
+      "url": "https://www.youtube.com/watch?v=BgFammIHN5s",
+      "downloadIndex": 15,
+      "playlistIndex": 20
+    },
+    {
+      "title": "Ethernaut 13 - Gatekeeper One",
+      "url": "https://www.youtube.com/watch?v=hOQWIIx5SRc",
+      "downloadIndex": 16,
+      "playlistIndex": 19
+    },
+    {
+      "title": "Ethernaut 12 - Privacy",
+      "url": "https://www.youtube.com/watch?v=qe-0NkENi-I",
+      "downloadIndex": 17,
+      "playlistIndex": 18
+    },
+    {
+      "title": "Ethernaut 11 - Elevator",
+      "url": "https://www.youtube.com/watch?v=IfljmOqThvI",
+      "downloadIndex": 18,
+      "playlistIndex": 17
+    },
+    {
+      "title": "Ethernaut 10 - Re-entrancy",
+      "url": "https://www.youtube.com/watch?v=K8AFyNiuTXs",
+      "downloadIndex": 19,
+      "playlistIndex": 16
+    },
+    {
+      "title": "Ethernaut 09 - King",
+      "url": "https://www.youtube.com/watch?v=df6x81mMw_g",
+      "downloadIndex": 20,
+      "playlistIndex": 15
+    },
+    {
+      "title": "Ethernaut 08 - Vault",
+      "url": "https://www.youtube.com/watch?v=ZQ6ff2NxHeM",
+      "downloadIndex": 21,
+      "playlistIndex": 14
+    },
+    {
+      "title": "Ethernaut 07 - Force",
+      "url": "https://www.youtube.com/watch?v=3sdkTFn1NC8",
+      "downloadIndex": 22,
+      "playlistIndex": 13
+    },
+    {
+      "title": "Ethernaut 06 - Delegation",
+      "url": "https://www.youtube.com/watch?v=hUUasVqBhQY",
+      "downloadIndex": 23,
+      "playlistIndex": 12
+    },
+    {
+      "title": "Ethernaut 05 - Token",
+      "url": "https://www.youtube.com/watch?v=IxSK_OMVqu4",
+      "downloadIndex": 24,
+      "playlistIndex": 11
+    },
+    {
+      "title": "Ethernaut 04 - Telephone",
+      "url": "https://www.youtube.com/watch?v=9WibNKo2akI",
+      "downloadIndex": 25,
+      "playlistIndex": 10
+    },
+    {
+      "title": "Ethernaut 03 - Coin Flip",
+      "url": "https://www.youtube.com/watch?v=Bye55YkzZyM",
+      "downloadIndex": 26,
+      "playlistIndex": 9
+    },
+    {
+      "title": "Ethernaut 02 - Fallout",
+      "url": "https://www.youtube.com/watch?v=1E0BTVudurM",
+      "downloadIndex": 27,
+      "playlistIndex": 8
+    },
+    {
+      "title": "Ethernaut 01 - Fallback",
+      "url": "https://www.youtube.com/watch?v=TQKj2xvsGec",
+      "downloadIndex": 28,
+      "playlistIndex": 7
+    },
+    {
+      "title": "Fuzzing Timestamp and Caller with Echidna",
+      "url": "https://www.youtube.com/watch?v=dpK9a4WRXtA",
+      "downloadIndex": 29,
+      "playlistIndex": 6
+    },
+    {
+      "title": "Finding Bugs with Echidna",
+      "url": "https://www.youtube.com/watch?v=vCTnI2nDnAw",
+      "downloadIndex": 30,
+      "playlistIndex": 5
+    },
+    {
+      "title": "Flashbots - Protect Your Transaction from Sandwich Attacks",
+      "url": "https://www.youtube.com/watch?v=Zt15wrSDVxc",
+      "downloadIndex": 31,
+      "playlistIndex": 4
+    },
+    {
+      "title": "Tenderly.co - Debug Transaction",
+      "url": "https://www.youtube.com/watch?v=90GN9Ut8LhU",
+      "downloadIndex": 32,
+      "playlistIndex": 3
+    },
+    {
+      "title": "Tenderly.co - Simulate Mainnet Transaction",
+      "url": "https://www.youtube.com/watch?v=3zFe5MNBf1g",
+      "downloadIndex": 33,
+      "playlistIndex": 2
+    },
+    {
+      "title": "Tenderly.co - Get Email Alert on Failed Transaction",
+      "url": "https://www.youtube.com/watch?v=pkD2W44OOjg",
+      "downloadIndex": 34,
+      "playlistIndex": 1
+    }
+  ]
+}

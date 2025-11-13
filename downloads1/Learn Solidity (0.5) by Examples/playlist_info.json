@@ -1,0 +1,396 @@
+{
+  "title": "Learn Solidity (0.5) by Examples",
+  "channel": "Smart Contract Programmer",
+  "url": "https://youtube.com/playlist?list=PLO5VPQH6OWdULDcret0S0EYQ7YcKzrigz&si=LoYClaBb6074Ap9t",
+  "totalVideos": 32,
+  "extractedAt": "2025-10-24T08:25:12.844Z",
+  "videos": [
+    {
+      "title": "Learn Solidity (0.5) - Hello World",
+      "url": "https://www.youtube.com/watch?v=hMwdd664_iw",
+      "playlistIndex": 1,
+      "uploadInfo": "6 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - State Variables",
+      "url": "https://www.youtube.com/watch?v=4XQsHBJScEk",
+      "playlistIndex": 2,
+      "uploadInfo": "6 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Ether and Wei",
+      "url": "https://www.youtube.com/watch?v=ybPQsjssyNw",
+      "playlistIndex": 3,
+      "uploadInfo": "6 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Gas and Gas Price",
+      "url": "https://www.youtube.com/watch?v=oTS9uxU6cAM",
+      "playlistIndex": 4,
+      "uploadInfo": "6 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Functions",
+      "url": "https://www.youtube.com/watch?v=71cmPaD_AnQ",
+      "playlistIndex": 5,
+      "uploadInfo": "6 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - View and Pure Functions",
+      "url": "https://www.youtube.com/watch?v=xknoxALAL8c",
+      "playlistIndex": 6,
+      "uploadInfo": "6 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Function Modifiers",
+      "url": "https://www.youtube.com/watch?v=thADMg9cKPM",
+      "playlistIndex": 7,
+      "uploadInfo": "6 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Constructor",
+      "url": "https://www.youtube.com/watch?v=HpjZZ9tASGs",
+      "playlistIndex": 8,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Inheritance (part 1)",
+      "url": "https://www.youtube.com/watch?v=GnztHR8-1o8",
+      "playlistIndex": 9,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Inheritance (part 2)",
+      "url": "https://www.youtube.com/watch?v=Q5_Gmm_IZSI",
+      "playlistIndex": 10,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Inheritance (part 3)",
+      "url": "https://www.youtube.com/watch?v=dcNpIOhTNQg",
+      "playlistIndex": 11,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Visibility",
+      "url": "https://www.youtube.com/watch?v=NBzQVJ6OrrQ",
+      "playlistIndex": 12,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Events",
+      "url": "https://www.youtube.com/watch?v=BduMOagAuKs",
+      "playlistIndex": 13,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Error",
+      "url": "https://www.youtube.com/watch?v=k4mdv97up5M",
+      "playlistIndex": 14,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Loop",
+      "url": "https://www.youtube.com/watch?v=hzxdGvcsDvU",
+      "playlistIndex": 15,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Array",
+      "url": "https://www.youtube.com/watch?v=Vx0AoK7Vauw",
+      "playlistIndex": 16,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Mapping",
+      "url": "https://www.youtube.com/watch?v=tO3vVMCOts8",
+      "playlistIndex": 17,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Merkle Tree",
+      "url": "https://www.youtube.com/watch?v=n6nEPaE7KZ8",
+      "playlistIndex": 18,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Enum",
+      "url": "https://www.youtube.com/watch?v=yJbx07N15j0",
+      "playlistIndex": 19,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Structs",
+      "url": "https://www.youtube.com/watch?v=kYBHq7EmFBc",
+      "playlistIndex": 20,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Payable",
+      "url": "https://www.youtube.com/watch?v=yD9EL1QN40Q",
+      "playlistIndex": 21,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Sending Ether",
+      "url": "https://www.youtube.com/watch?v=_5vGaqgzlG8",
+      "playlistIndex": 22,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Fallback Function",
+      "url": "https://www.youtube.com/watch?v=3FY9FkJKSSI",
+      "playlistIndex": 23,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Call",
+      "url": "https://www.youtube.com/watch?v=mz10sUmEdsM",
+      "playlistIndex": 24,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Delegatecall",
+      "url": "https://www.youtube.com/watch?v=Yh8UL7FZwAI",
+      "playlistIndex": 25,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learn Solidity (0.5) - Calling Other Contracts",
+      "url": "https://www.youtube.com/watch?v=v2mcMEhcPng",
+      "playlistIndex": 26,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learning Solidity (0.5) - Creating Contracts from a Contract",
+      "url": "https://www.youtube.com/watch?v=CyzsUA12ju4",
+      "playlistIndex": 27,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learning Solidity (0.5) - Import",
+      "url": "https://www.youtube.com/watch?v=0Dby_DpEoQY",
+      "playlistIndex": 28,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learning Solidity (0.5) - Library",
+      "url": "https://www.youtube.com/watch?v=iIMSMfArTiE",
+      "playlistIndex": 29,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learning Solidity (0.5) - Hash Function (Keccak256)",
+      "url": "https://www.youtube.com/watch?v=rxZR3ITZlzE",
+      "playlistIndex": 30,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Learning Solidity (0.5) - Signature Verification",
+      "url": "https://www.youtube.com/watch?v=NP4db_UPVwc",
+      "playlistIndex": 31,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "How to Call Deployed Contract - Interface  | Learn Solidity (0.6)",
+      "url": "https://www.youtube.com/watch?v=YWtT0MNHYhQ",
+      "playlistIndex": 32,
+      "uploadInfo": "4 years ago"
+    }
+  ],
+  "sortOrder": "upload",
+  "sortedVideos": [
+    {
+      "title": "How to Call Deployed Contract - Interface  | Learn Solidity (0.6)",
+      "url": "https://www.youtube.com/watch?v=YWtT0MNHYhQ",
+      "downloadIndex": 1,
+      "playlistIndex": 32
+    },
+    {
+      "title": "Learning Solidity (0.5) - Signature Verification",
+      "url": "https://www.youtube.com/watch?v=NP4db_UPVwc",
+      "downloadIndex": 2,
+      "playlistIndex": 31
+    },
+    {
+      "title": "Learning Solidity (0.5) - Hash Function (Keccak256)",
+      "url": "https://www.youtube.com/watch?v=rxZR3ITZlzE",
+      "downloadIndex": 3,
+      "playlistIndex": 30
+    },
+    {
+      "title": "Learning Solidity (0.5) - Library",
+      "url": "https://www.youtube.com/watch?v=iIMSMfArTiE",
+      "downloadIndex": 4,
+      "playlistIndex": 29
+    },
+    {
+      "title": "Learning Solidity (0.5) - Import",
+      "url": "https://www.youtube.com/watch?v=0Dby_DpEoQY",
+      "downloadIndex": 5,
+      "playlistIndex": 28
+    },
+    {
+      "title": "Learning Solidity (0.5) - Creating Contracts from a Contract",
+      "url": "https://www.youtube.com/watch?v=CyzsUA12ju4",
+      "downloadIndex": 6,
+      "playlistIndex": 27
+    },
+    {
+      "title": "Learn Solidity (0.5) - Calling Other Contracts",
+      "url": "https://www.youtube.com/watch?v=v2mcMEhcPng",
+      "downloadIndex": 7,
+      "playlistIndex": 26
+    },
+    {
+      "title": "Learn Solidity (0.5) - Delegatecall",
+      "url": "https://www.youtube.com/watch?v=Yh8UL7FZwAI",
+      "downloadIndex": 8,
+      "playlistIndex": 25
+    },
+    {
+      "title": "Learn Solidity (0.5) - Call",
+      "url": "https://www.youtube.com/watch?v=mz10sUmEdsM",
+      "downloadIndex": 9,
+      "playlistIndex": 24
+    },
+    {
+      "title": "Learn Solidity (0.5) - Fallback Function",
+      "url": "https://www.youtube.com/watch?v=3FY9FkJKSSI",
+      "downloadIndex": 10,
+      "playlistIndex": 23
+    },
+    {
+      "title": "Learn Solidity (0.5) - Sending Ether",
+      "url": "https://www.youtube.com/watch?v=_5vGaqgzlG8",
+      "downloadIndex": 11,
+      "playlistIndex": 22
+    },
+    {
+      "title": "Learn Solidity (0.5) - Payable",
+      "url": "https://www.youtube.com/watch?v=yD9EL1QN40Q",
+      "downloadIndex": 12,
+      "playlistIndex": 21
+    },
+    {
+      "title": "Learn Solidity (0.5) - Structs",
+      "url": "https://www.youtube.com/watch?v=kYBHq7EmFBc",
+      "downloadIndex": 13,
+      "playlistIndex": 20
+    },
+    {
+      "title": "Learn Solidity (0.5) - Enum",
+      "url": "https://www.youtube.com/watch?v=yJbx07N15j0",
+      "downloadIndex": 14,
+      "playlistIndex": 19
+    },
+    {
+      "title": "Learn Solidity (0.5) - Merkle Tree",
+      "url": "https://www.youtube.com/watch?v=n6nEPaE7KZ8",
+      "downloadIndex": 15,
+      "playlistIndex": 18
+    },
+    {
+      "title": "Learn Solidity (0.5) - Mapping",
+      "url": "https://www.youtube.com/watch?v=tO3vVMCOts8",
+      "downloadIndex": 16,
+      "playlistIndex": 17
+    },
+    {
+      "title": "Learn Solidity (0.5) - Array",
+      "url": "https://www.youtube.com/watch?v=Vx0AoK7Vauw",
+      "downloadIndex": 17,
+      "playlistIndex": 16
+    },
+    {
+      "title": "Learn Solidity (0.5) - Loop",
+      "url": "https://www.youtube.com/watch?v=hzxdGvcsDvU",
+      "downloadIndex": 18,
+      "playlistIndex": 15
+    },
+    {
+      "title": "Learn Solidity (0.5) - Error",
+      "url": "https://www.youtube.com/watch?v=k4mdv97up5M",
+      "downloadIndex": 19,
+      "playlistIndex": 14
+    },
+    {
+      "title": "Learn Solidity (0.5) - Events",
+      "url": "https://www.youtube.com/watch?v=BduMOagAuKs",
+      "downloadIndex": 20,
+      "playlistIndex": 13
+    },
+    {
+      "title": "Learn Solidity (0.5) - Visibility",
+      "url": "https://www.youtube.com/watch?v=NBzQVJ6OrrQ",
+      "downloadIndex": 21,
+      "playlistIndex": 12
+    },
+    {
+      "title": "Learn Solidity (0.5) - Inheritance (part 3)",
+      "url": "https://www.youtube.com/watch?v=dcNpIOhTNQg",
+      "downloadIndex": 22,
+      "playlistIndex": 11
+    },
+    {
+      "title": "Learn Solidity (0.5) - Inheritance (part 2)",
+      "url": "https://www.youtube.com/watch?v=Q5_Gmm_IZSI",
+      "downloadIndex": 23,
+      "playlistIndex": 10
+    },
+    {
+      "title": "Learn Solidity (0.5) - Inheritance (part 1)",
+      "url": "https://www.youtube.com/watch?v=GnztHR8-1o8",
+      "downloadIndex": 24,
+      "playlistIndex": 9
+    },
+    {
+      "title": "Learn Solidity (0.5) - Constructor",
+      "url": "https://www.youtube.com/watch?v=HpjZZ9tASGs",
+      "downloadIndex": 25,
+      "playlistIndex": 8
+    },
+    {
+      "title": "Learn Solidity (0.5) - Function Modifiers",
+      "url": "https://www.youtube.com/watch?v=thADMg9cKPM",
+      "downloadIndex": 26,
+      "playlistIndex": 7
+    },
+    {
+      "title": "Learn Solidity (0.5) - View and Pure Functions",
+      "url": "https://www.youtube.com/watch?v=xknoxALAL8c",
+      "downloadIndex": 27,
+      "playlistIndex": 6
+    },
+    {
+      "title": "Learn Solidity (0.5) - Functions",
+      "url": "https://www.youtube.com/watch?v=71cmPaD_AnQ",
+      "downloadIndex": 28,
+      "playlistIndex": 5
+    },
+    {
+      "title": "Learn Solidity (0.5) - Gas and Gas Price",
+      "url": "https://www.youtube.com/watch?v=oTS9uxU6cAM",
+      "downloadIndex": 29,
+      "playlistIndex": 4
+    },
+    {
+      "title": "Learn Solidity (0.5) - Ether and Wei",
+      "url": "https://www.youtube.com/watch?v=ybPQsjssyNw",
+      "downloadIndex": 30,
+      "playlistIndex": 3
+    },
+    {
+      "title": "Learn Solidity (0.5) - State Variables",
+      "url": "https://www.youtube.com/watch?v=4XQsHBJScEk",
+      "downloadIndex": 31,
+      "playlistIndex": 2
+    },
+    {
+      "title": "Learn Solidity (0.5) - Hello World",
+      "url": "https://www.youtube.com/watch?v=hMwdd664_iw",
+      "downloadIndex": 32,
+      "playlistIndex": 1
+    }
+  ]
+}

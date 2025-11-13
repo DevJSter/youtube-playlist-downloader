@@ -1,0 +1,900 @@
+{
+  "title": "Solidity Applications",
+  "channel": "Smart Contract Programmer",
+  "url": "https://youtube.com/playlist?list=PLO5VPQH6OWdVfvNOaEhBtA53XHyHo_oJo&si=gX31bbmjW8XKq1H6",
+  "totalVideos": 74,
+  "extractedAt": "2025-10-24T08:39:27.052Z",
+  "videos": [
+    {
+      "title": "How to Code a Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=Dh7r6Ze-0Bs",
+      "playlistIndex": 1,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Setup Truffle - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=8fPcQIPNfG8",
+      "playlistIndex": 2,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Testing with Truffle - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=XFQgY-lNNlE",
+      "playlistIndex": 3,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Deploying Contracts using Truffle - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=36k8XT2u6G4",
+      "playlistIndex": 4,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Connect Metamask with Truffle and Import Accounts from Truffle - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=jaTnIeWjAg0",
+      "playlistIndex": 5,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "React App Overview - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=Tcu6WiD_YC0",
+      "playlistIndex": 6,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "React App - Install and Setup (Part 2) - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=D-y2XK3YABc",
+      "playlistIndex": 7,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "React App - Web3 Context (Part 3) - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=7Gp_eJkPpmw",
+      "playlistIndex": 8,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "React App - Multi Sig Wallet Context (Part 4) - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=RQAY2VLMI7w",
+      "playlistIndex": 9,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Deploying Contracts to Ropsten Testnet - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=0j4Yp3coLuo",
+      "playlistIndex": 10,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "How to Use an ERC-20 Token | Solidity (0.6)",
+      "url": "https://www.youtube.com/watch?v=xtDkat5f6Hs",
+      "playlistIndex": 11,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "ERC-20 Token Swap | Solidity (0.6)",
+      "url": "https://www.youtube.com/watch?v=jP1A1odqXFM",
+      "playlistIndex": 12,
+      "uploadInfo": "5 years ago"
+    },
+    {
+      "title": "Minimal Proxy Contract | Solidity (0.7)",
+      "url": "https://www.youtube.com/watch?v=9xqoK2nKkM4",
+      "playlistIndex": 13,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Create2 - Compute Contract Address Before Deploy | Solidity (0.8)",
+      "url": "https://www.youtube.com/watch?v=-XT2YCQGVEQ",
+      "playlistIndex": 14,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Synthetix Staking Rewards Contract Explained - Part 0 - Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=6ZO5aYg1GI8",
+      "playlistIndex": 15,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Synthetix Staking Rewards Contract Explained - Part 1 - More Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=LWWsjw3cgDk",
+      "playlistIndex": 16,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Synthetix Staking Rewards Contract Explained - Part 2 - Algorithm | DeFi",
+      "url": "https://www.youtube.com/watch?v=YqpRwJDz3xg",
+      "playlistIndex": 17,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Synthetix Staking Rewards Contract Explained - Part 3 - Code | DeFi",
+      "url": "https://www.youtube.com/watch?v=pFX1-kNrJFU",
+      "playlistIndex": 18,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Counter | Solidity 0.8 Application",
+      "url": "https://www.youtube.com/watch?v=zzT3a7BJxgw",
+      "playlistIndex": 19,
+      "uploadInfo": "4 years ago"
+    },
+    {
+      "title": "Ownable | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=QEJYSuyYOfw",
+      "playlistIndex": 20,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Array Remove An Element By Replacing Last | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=8i4CChP99XQ",
+      "playlistIndex": 21,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Iterable Mapping | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=YOjo_lvUhj8",
+      "playlistIndex": 22,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Deploy Any Contract | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=YbRGTF1OGdM",
+      "playlistIndex": 23,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Simple Storage | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=YNu4wH2DXoU",
+      "playlistIndex": 24,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Todo List | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=CnHFNadyla0",
+      "playlistIndex": 25,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Ether Wallet | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=4w_bMkoo2uw",
+      "playlistIndex": 26,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Open Zeppelin Upgradeable Contracts",
+      "url": "https://www.youtube.com/watch?v=JgSj7IiE4jA",
+      "playlistIndex": 27,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Access Control | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=tfk25O-5Ppg",
+      "playlistIndex": 28,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Open Zeppelin Upgradeable Contracts - Unsafe Code",
+      "url": "https://www.youtube.com/watch?v=XmxfB5JOt1Q",
+      "playlistIndex": 29,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Piggy Bank | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=Geio70-SfSE",
+      "playlistIndex": 30,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Open Zeppelin Upgradeable ERC20",
+      "url": "https://www.youtube.com/watch?v=Vt20jCu8OC8",
+      "playlistIndex": 31,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "ERC20 | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=gwn1rVDuGL0",
+      "playlistIndex": 32,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Multi Sig Wallet | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=8ja72g_Dac4",
+      "playlistIndex": 33,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Dutch Auction | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=Ykt2Wqt6pBQ",
+      "playlistIndex": 34,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "English Auction | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=ZeFjGJpzI7E",
+      "playlistIndex": 35,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Crowd Fund | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=P-4ucHdjGpU",
+      "playlistIndex": 36,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Multi Call | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=PDR054Cy8qM",
+      "playlistIndex": 37,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Multi Delegatecall | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=NkTWU6tc9WU",
+      "playlistIndex": 38,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Uniswap V2 Price Oracle | DeFi",
+      "url": "https://www.youtube.com/watch?v=Ar4Ik7Bov0U",
+      "playlistIndex": 39,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Time Lock | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=P1f2a5Ckjpg",
+      "playlistIndex": 40,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "WETH | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=UqKQ1bTatUs",
+      "playlistIndex": 41,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Offchain Approval with ERC20 Permit and Ethers.js",
+      "url": "https://www.youtube.com/watch?v=Sib9_yW_rLY",
+      "playlistIndex": 42,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Constant Sum Automated Market Maker | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=Luff_OGvYtI",
+      "playlistIndex": 43,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Constant Product Automated Market Maker | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=JSZbvmyi_LE",
+      "playlistIndex": 44,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "ERC721 | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=9PBq9HfBUDY",
+      "playlistIndex": 45,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Wrong Way To Write an Upgradeable Proxy - Transparent Upgradeable Proxy - Part 1 | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=xluCHy_HB-4",
+      "playlistIndex": 46,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Return Data From Fallback - Transparent Upgradeable Proxy - Part 2 | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=KGmV8-NdPgE",
+      "playlistIndex": 47,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Write to Any Slot - Transparent Upgradeable Proxy - Part 3 | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=RcyCW1nigog",
+      "playlistIndex": 48,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Admin and User Interface - Transparent Upgradeable Proxy - Part 4 | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=CLhPUrxwP7k",
+      "playlistIndex": 49,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Proxy Admin - Transparent Upgradeable Proxy - Part 5 | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=EUOERNErbyI",
+      "playlistIndex": 50,
+      "uploadInfo": "3 years ago"
+    },
+    {
+      "title": "Discrete Staking Rewards | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=_I1n1WbRz7o",
+      "playlistIndex": 51,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Simple Bytecode Contract | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=0qQUhsPafJc",
+      "playlistIndex": 52,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Most Significant Bit in Assembly | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=yVh_klUBjWI",
+      "playlistIndex": 53,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Gas-less Token Transfer",
+      "url": "https://www.youtube.com/watch?v=rucZrL1nOO8",
+      "playlistIndex": 54,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Gas-less Token Transfer - Code | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=jYNnatXRsBs",
+      "playlistIndex": 55,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Gas-less Token Transfer - Test | Testing with Foundry",
+      "url": "https://www.youtube.com/watch?v=YJN7MMllK8M",
+      "playlistIndex": 56,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "ERC1155 | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=C4i4CDGb9A0",
+      "playlistIndex": 57,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Constructor | Uniswap V3 Core Contract Explained - Part 0",
+      "url": "https://www.youtube.com/watch?v=WW_xRGXSr7Q",
+      "playlistIndex": 58,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Price, Tick and Tick Spacing | Uniswap V3 Core Contract Explained - Part 1",
+      "url": "https://www.youtube.com/watch?v=p_buwIBauqk",
+      "playlistIndex": 59,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Max Liquidity Per Tick | Uniswap V3 Core Contract Explained - Part 2",
+      "url": "https://www.youtube.com/watch?v=TLYLHyopqaU",
+      "playlistIndex": 60,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Initialize and Slot 0 | Uniswap V3 Core Contract Explained - Part 3",
+      "url": "https://www.youtube.com/watch?v=KUh_GSrKe_s",
+      "playlistIndex": 61,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Sqrt Price X 96 | Uniswap V3 Core Contract Explained - Part 4",
+      "url": "https://www.youtube.com/watch?v=4ORHTWEQD_c",
+      "playlistIndex": 62,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Sqrt Price X 96 to TIck | Uniswap V3 Core Contract Explained - Part 5",
+      "url": "https://www.youtube.com/watch?v=YNeWPe8HIrQ",
+      "playlistIndex": 63,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Mint | Uniswap V3 Core Contract Explained - Part 6",
+      "url": "https://www.youtube.com/watch?v=KfdjJHIVjGE",
+      "playlistIndex": 64,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Update Position | Uniswap V3 Core Contract Explained - Part 7",
+      "url": "https://www.youtube.com/watch?v=G5TVlfnmaLg",
+      "playlistIndex": 65,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Update Tick | Uniswap V3 Core Contract Explained - Part 8",
+      "url": "https://www.youtube.com/watch?v=6UjNyqujHV8",
+      "playlistIndex": 66,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Liquidity, Price and Token Reservers | Uniswap V3 Core Contract Explained - Part 9",
+      "url": "https://www.youtube.com/watch?v=X6y42QbVSp4",
+      "playlistIndex": 67,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Liquidity Net | Uniswap V3 Core Contract Explained - Part 10",
+      "url": "https://www.youtube.com/watch?v=U_oL8Nr2SjQ",
+      "playlistIndex": 68,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Equation of Real Reserves Curve | Uniswap V3 Core Contract Explained - Part 11",
+      "url": "https://www.youtube.com/watch?v=7dkTNlaM2co",
+      "playlistIndex": 69,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Real Amounts | Uniswap V3 Core Contract Explained - Part 12",
+      "url": "https://www.youtube.com/watch?v=CS9hMKaVNLY",
+      "playlistIndex": 70,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Liquidity | Uniswap V3 Core Contract Explained - Part 13",
+      "url": "https://www.youtube.com/watch?v=dPkrI2VzuAk",
+      "playlistIndex": 71,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Liquidity Delta | Uniswap V3 Core Contract Explained - Part 14",
+      "url": "https://www.youtube.com/watch?v=f6QVx_Ti-pM",
+      "playlistIndex": 72,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Finishing up Modify Position | Uniswap V3 Core Contract Explained - Part 15",
+      "url": "https://www.youtube.com/watch?v=b24q2e8PeJ0",
+      "playlistIndex": 73,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "Binary Exponentiation | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=jMGUi-Uio4s",
+      "playlistIndex": 74,
+      "uploadInfo": "2 years ago"
+    }
+  ],
+  "sortOrder": "upload",
+  "sortedVideos": [
+    {
+      "title": "Binary Exponentiation | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=jMGUi-Uio4s",
+      "downloadIndex": 1,
+      "playlistIndex": 74
+    },
+    {
+      "title": "Finishing up Modify Position | Uniswap V3 Core Contract Explained - Part 15",
+      "url": "https://www.youtube.com/watch?v=b24q2e8PeJ0",
+      "downloadIndex": 2,
+      "playlistIndex": 73
+    },
+    {
+      "title": "Liquidity Delta | Uniswap V3 Core Contract Explained - Part 14",
+      "url": "https://www.youtube.com/watch?v=f6QVx_Ti-pM",
+      "downloadIndex": 3,
+      "playlistIndex": 72
+    },
+    {
+      "title": "Liquidity | Uniswap V3 Core Contract Explained - Part 13",
+      "url": "https://www.youtube.com/watch?v=dPkrI2VzuAk",
+      "downloadIndex": 4,
+      "playlistIndex": 71
+    },
+    {
+      "title": "Real Amounts | Uniswap V3 Core Contract Explained - Part 12",
+      "url": "https://www.youtube.com/watch?v=CS9hMKaVNLY",
+      "downloadIndex": 5,
+      "playlistIndex": 70
+    },
+    {
+      "title": "Equation of Real Reserves Curve | Uniswap V3 Core Contract Explained - Part 11",
+      "url": "https://www.youtube.com/watch?v=7dkTNlaM2co",
+      "downloadIndex": 6,
+      "playlistIndex": 69
+    },
+    {
+      "title": "Liquidity Net | Uniswap V3 Core Contract Explained - Part 10",
+      "url": "https://www.youtube.com/watch?v=U_oL8Nr2SjQ",
+      "downloadIndex": 7,
+      "playlistIndex": 68
+    },
+    {
+      "title": "Liquidity, Price and Token Reservers | Uniswap V3 Core Contract Explained - Part 9",
+      "url": "https://www.youtube.com/watch?v=X6y42QbVSp4",
+      "downloadIndex": 8,
+      "playlistIndex": 67
+    },
+    {
+      "title": "Update Tick | Uniswap V3 Core Contract Explained - Part 8",
+      "url": "https://www.youtube.com/watch?v=6UjNyqujHV8",
+      "downloadIndex": 9,
+      "playlistIndex": 66
+    },
+    {
+      "title": "Update Position | Uniswap V3 Core Contract Explained - Part 7",
+      "url": "https://www.youtube.com/watch?v=G5TVlfnmaLg",
+      "downloadIndex": 10,
+      "playlistIndex": 65
+    },
+    {
+      "title": "Mint | Uniswap V3 Core Contract Explained - Part 6",
+      "url": "https://www.youtube.com/watch?v=KfdjJHIVjGE",
+      "downloadIndex": 11,
+      "playlistIndex": 64
+    },
+    {
+      "title": "Sqrt Price X 96 to TIck | Uniswap V3 Core Contract Explained - Part 5",
+      "url": "https://www.youtube.com/watch?v=YNeWPe8HIrQ",
+      "downloadIndex": 12,
+      "playlistIndex": 63
+    },
+    {
+      "title": "Sqrt Price X 96 | Uniswap V3 Core Contract Explained - Part 4",
+      "url": "https://www.youtube.com/watch?v=4ORHTWEQD_c",
+      "downloadIndex": 13,
+      "playlistIndex": 62
+    },
+    {
+      "title": "Initialize and Slot 0 | Uniswap V3 Core Contract Explained - Part 3",
+      "url": "https://www.youtube.com/watch?v=KUh_GSrKe_s",
+      "downloadIndex": 14,
+      "playlistIndex": 61
+    },
+    {
+      "title": "Max Liquidity Per Tick | Uniswap V3 Core Contract Explained - Part 2",
+      "url": "https://www.youtube.com/watch?v=TLYLHyopqaU",
+      "downloadIndex": 15,
+      "playlistIndex": 60
+    },
+    {
+      "title": "Price, Tick and Tick Spacing | Uniswap V3 Core Contract Explained - Part 1",
+      "url": "https://www.youtube.com/watch?v=p_buwIBauqk",
+      "downloadIndex": 16,
+      "playlistIndex": 59
+    },
+    {
+      "title": "Constructor | Uniswap V3 Core Contract Explained - Part 0",
+      "url": "https://www.youtube.com/watch?v=WW_xRGXSr7Q",
+      "downloadIndex": 17,
+      "playlistIndex": 58
+    },
+    {
+      "title": "ERC1155 | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=C4i4CDGb9A0",
+      "downloadIndex": 18,
+      "playlistIndex": 57
+    },
+    {
+      "title": "Gas-less Token Transfer - Test | Testing with Foundry",
+      "url": "https://www.youtube.com/watch?v=YJN7MMllK8M",
+      "downloadIndex": 19,
+      "playlistIndex": 56
+    },
+    {
+      "title": "Gas-less Token Transfer - Code | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=jYNnatXRsBs",
+      "downloadIndex": 20,
+      "playlistIndex": 55
+    },
+    {
+      "title": "Gas-less Token Transfer",
+      "url": "https://www.youtube.com/watch?v=rucZrL1nOO8",
+      "downloadIndex": 21,
+      "playlistIndex": 54
+    },
+    {
+      "title": "Most Significant Bit in Assembly | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=yVh_klUBjWI",
+      "downloadIndex": 22,
+      "playlistIndex": 53
+    },
+    {
+      "title": "Simple Bytecode Contract | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=0qQUhsPafJc",
+      "downloadIndex": 23,
+      "playlistIndex": 52
+    },
+    {
+      "title": "Discrete Staking Rewards | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=_I1n1WbRz7o",
+      "downloadIndex": 24,
+      "playlistIndex": 51
+    },
+    {
+      "title": "Proxy Admin - Transparent Upgradeable Proxy - Part 5 | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=EUOERNErbyI",
+      "downloadIndex": 25,
+      "playlistIndex": 50
+    },
+    {
+      "title": "Admin and User Interface - Transparent Upgradeable Proxy - Part 4 | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=CLhPUrxwP7k",
+      "downloadIndex": 26,
+      "playlistIndex": 49
+    },
+    {
+      "title": "Write to Any Slot - Transparent Upgradeable Proxy - Part 3 | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=RcyCW1nigog",
+      "downloadIndex": 27,
+      "playlistIndex": 48
+    },
+    {
+      "title": "Return Data From Fallback - Transparent Upgradeable Proxy - Part 2 | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=KGmV8-NdPgE",
+      "downloadIndex": 28,
+      "playlistIndex": 47
+    },
+    {
+      "title": "Wrong Way To Write an Upgradeable Proxy - Transparent Upgradeable Proxy - Part 1 | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=xluCHy_HB-4",
+      "downloadIndex": 29,
+      "playlistIndex": 46
+    },
+    {
+      "title": "ERC721 | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=9PBq9HfBUDY",
+      "downloadIndex": 30,
+      "playlistIndex": 45
+    },
+    {
+      "title": "Constant Product Automated Market Maker | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=JSZbvmyi_LE",
+      "downloadIndex": 31,
+      "playlistIndex": 44
+    },
+    {
+      "title": "Constant Sum Automated Market Maker | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=Luff_OGvYtI",
+      "downloadIndex": 32,
+      "playlistIndex": 43
+    },
+    {
+      "title": "Offchain Approval with ERC20 Permit and Ethers.js",
+      "url": "https://www.youtube.com/watch?v=Sib9_yW_rLY",
+      "downloadIndex": 33,
+      "playlistIndex": 42
+    },
+    {
+      "title": "WETH | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=UqKQ1bTatUs",
+      "downloadIndex": 34,
+      "playlistIndex": 41
+    },
+    {
+      "title": "Time Lock | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=P1f2a5Ckjpg",
+      "downloadIndex": 35,
+      "playlistIndex": 40
+    },
+    {
+      "title": "Uniswap V2 Price Oracle | DeFi",
+      "url": "https://www.youtube.com/watch?v=Ar4Ik7Bov0U",
+      "downloadIndex": 36,
+      "playlistIndex": 39
+    },
+    {
+      "title": "Multi Delegatecall | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=NkTWU6tc9WU",
+      "downloadIndex": 37,
+      "playlistIndex": 38
+    },
+    {
+      "title": "Multi Call | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=PDR054Cy8qM",
+      "downloadIndex": 38,
+      "playlistIndex": 37
+    },
+    {
+      "title": "Crowd Fund | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=P-4ucHdjGpU",
+      "downloadIndex": 39,
+      "playlistIndex": 36
+    },
+    {
+      "title": "English Auction | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=ZeFjGJpzI7E",
+      "downloadIndex": 40,
+      "playlistIndex": 35
+    },
+    {
+      "title": "Dutch Auction | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=Ykt2Wqt6pBQ",
+      "downloadIndex": 41,
+      "playlistIndex": 34
+    },
+    {
+      "title": "Multi Sig Wallet | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=8ja72g_Dac4",
+      "downloadIndex": 42,
+      "playlistIndex": 33
+    },
+    {
+      "title": "ERC20 | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=gwn1rVDuGL0",
+      "downloadIndex": 43,
+      "playlistIndex": 32
+    },
+    {
+      "title": "Open Zeppelin Upgradeable ERC20",
+      "url": "https://www.youtube.com/watch?v=Vt20jCu8OC8",
+      "downloadIndex": 44,
+      "playlistIndex": 31
+    },
+    {
+      "title": "Piggy Bank | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=Geio70-SfSE",
+      "downloadIndex": 45,
+      "playlistIndex": 30
+    },
+    {
+      "title": "Open Zeppelin Upgradeable Contracts - Unsafe Code",
+      "url": "https://www.youtube.com/watch?v=XmxfB5JOt1Q",
+      "downloadIndex": 46,
+      "playlistIndex": 29
+    },
+    {
+      "title": "Access Control | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=tfk25O-5Ppg",
+      "downloadIndex": 47,
+      "playlistIndex": 28
+    },
+    {
+      "title": "Open Zeppelin Upgradeable Contracts",
+      "url": "https://www.youtube.com/watch?v=JgSj7IiE4jA",
+      "downloadIndex": 48,
+      "playlistIndex": 27
+    },
+    {
+      "title": "Ether Wallet | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=4w_bMkoo2uw",
+      "downloadIndex": 49,
+      "playlistIndex": 26
+    },
+    {
+      "title": "Todo List | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=CnHFNadyla0",
+      "downloadIndex": 50,
+      "playlistIndex": 25
+    },
+    {
+      "title": "Simple Storage | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=YNu4wH2DXoU",
+      "downloadIndex": 51,
+      "playlistIndex": 24
+    },
+    {
+      "title": "Deploy Any Contract | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=YbRGTF1OGdM",
+      "downloadIndex": 52,
+      "playlistIndex": 23
+    },
+    {
+      "title": "Iterable Mapping | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=YOjo_lvUhj8",
+      "downloadIndex": 53,
+      "playlistIndex": 22
+    },
+    {
+      "title": "Array Remove An Element By Replacing Last | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=8i4CChP99XQ",
+      "downloadIndex": 54,
+      "playlistIndex": 21
+    },
+    {
+      "title": "Ownable | Solidity 0.8",
+      "url": "https://www.youtube.com/watch?v=QEJYSuyYOfw",
+      "downloadIndex": 55,
+      "playlistIndex": 20
+    },
+    {
+      "title": "Counter | Solidity 0.8 Application",
+      "url": "https://www.youtube.com/watch?v=zzT3a7BJxgw",
+      "downloadIndex": 56,
+      "playlistIndex": 19
+    },
+    {
+      "title": "Synthetix Staking Rewards Contract Explained - Part 3 - Code | DeFi",
+      "url": "https://www.youtube.com/watch?v=pFX1-kNrJFU",
+      "downloadIndex": 57,
+      "playlistIndex": 18
+    },
+    {
+      "title": "Synthetix Staking Rewards Contract Explained - Part 2 - Algorithm | DeFi",
+      "url": "https://www.youtube.com/watch?v=YqpRwJDz3xg",
+      "downloadIndex": 58,
+      "playlistIndex": 17
+    },
+    {
+      "title": "Synthetix Staking Rewards Contract Explained - Part 1 - More Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=LWWsjw3cgDk",
+      "downloadIndex": 59,
+      "playlistIndex": 16
+    },
+    {
+      "title": "Synthetix Staking Rewards Contract Explained - Part 0 - Math | DeFi",
+      "url": "https://www.youtube.com/watch?v=6ZO5aYg1GI8",
+      "downloadIndex": 60,
+      "playlistIndex": 15
+    },
+    {
+      "title": "Create2 - Compute Contract Address Before Deploy | Solidity (0.8)",
+      "url": "https://www.youtube.com/watch?v=-XT2YCQGVEQ",
+      "downloadIndex": 61,
+      "playlistIndex": 14
+    },
+    {
+      "title": "Minimal Proxy Contract | Solidity (0.7)",
+      "url": "https://www.youtube.com/watch?v=9xqoK2nKkM4",
+      "downloadIndex": 62,
+      "playlistIndex": 13
+    },
+    {
+      "title": "ERC-20 Token Swap | Solidity (0.6)",
+      "url": "https://www.youtube.com/watch?v=jP1A1odqXFM",
+      "downloadIndex": 63,
+      "playlistIndex": 12
+    },
+    {
+      "title": "How to Use an ERC-20 Token | Solidity (0.6)",
+      "url": "https://www.youtube.com/watch?v=xtDkat5f6Hs",
+      "downloadIndex": 64,
+      "playlistIndex": 11
+    },
+    {
+      "title": "Deploying Contracts to Ropsten Testnet - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=0j4Yp3coLuo",
+      "downloadIndex": 65,
+      "playlistIndex": 10
+    },
+    {
+      "title": "React App - Multi Sig Wallet Context (Part 4) - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=RQAY2VLMI7w",
+      "downloadIndex": 66,
+      "playlistIndex": 9
+    },
+    {
+      "title": "React App - Web3 Context (Part 3) - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=7Gp_eJkPpmw",
+      "downloadIndex": 67,
+      "playlistIndex": 8
+    },
+    {
+      "title": "React App - Install and Setup (Part 2) - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=D-y2XK3YABc",
+      "downloadIndex": 68,
+      "playlistIndex": 7
+    },
+    {
+      "title": "React App Overview - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=Tcu6WiD_YC0",
+      "downloadIndex": 69,
+      "playlistIndex": 6
+    },
+    {
+      "title": "Connect Metamask with Truffle and Import Accounts from Truffle - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=jaTnIeWjAg0",
+      "downloadIndex": 70,
+      "playlistIndex": 5
+    },
+    {
+      "title": "Deploying Contracts using Truffle - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=36k8XT2u6G4",
+      "downloadIndex": 71,
+      "playlistIndex": 4
+    },
+    {
+      "title": "Testing with Truffle - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=XFQgY-lNNlE",
+      "downloadIndex": 72,
+      "playlistIndex": 3
+    },
+    {
+      "title": "Setup Truffle - Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=8fPcQIPNfG8",
+      "downloadIndex": 73,
+      "playlistIndex": 2
+    },
+    {
+      "title": "How to Code a Multi-Sig Wallet in Solidity (0.5)",
+      "url": "https://www.youtube.com/watch?v=Dh7r6Ze-0Bs",
+      "downloadIndex": 74,
+      "playlistIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "title": "Morning Aarti",
+  "channel": "Shubham Tiwari",
+  "url": "https://youtube.com/playlist?list=PLSThUO0ILfPTxWjYEJQJNlZKZs7todIEt&si=xIR1aXkqqS20QCPf",
+  "totalVideos": 8,
+  "extractedAt": "2025-10-23T18:27:47.608Z",
+  "videos": [
+    {
+      "title": "Vibhāvarī Śeṣa by Pavan Nitai Chandra Prabhu | Kirtan Revolution",
+      "url": "https://www.youtube.com/watch?v=_4w6gRYtS6I",
+      "playlistIndex": 1,
+      "uploadInfo": "2 years ago"
+    },
+    {
+      "title": "नमस्ते नरसिंहाय (Narasimha Aarti) | Swaroop Damodar Prabhu | Narsimha Prayers",
+      "url": "https://www.youtube.com/watch?v=bM7T4HVmOMM",
+      "playlistIndex": 2,
+      "uploadInfo": "7 years ago"
+    },
+    {
+      "title": "Samsara Davanala (ISKCON morning aarti) ||",
+      "url": "https://www.youtube.com/watch?v=SVuY8bfzbgM",
+      "playlistIndex": 3,
+      "uploadInfo": "16 years ago"
+    },
+    {
+      "title": "Samsara Davanala ~ Srila Prabhupada:",
+      "url": "https://www.youtube.com/watch?v=izDzDeENTGU",
+      "playlistIndex": 4,
+      "uploadInfo": "12 years ago"
+    },
+    {
+      "title": "Sri Sri Gurv-astaka",
+      "url": "https://www.youtube.com/watch?v=FEuVOngfAwc",
+      "playlistIndex": 5,
+      "uploadInfo": "9 years ago"
+    },
+    {
+      "title": "Iskcon Mayapur Early Morning Tulsi Aarti 07/08/2018",
+      "url": "https://www.youtube.com/watch?v=MEukPf06E1E",
+      "playlistIndex": 6,
+      "uploadInfo": "7 years ago"
+    },
+    {
+      "title": "Sri Guru Vandana ~ Swarupa Damodara Das",
+      "url": "https://www.youtube.com/watch?v=JAEDDy_DTlQ",
+      "playlistIndex": 7,
+      "uploadInfo": "15 years ago"
+    },
+    {
+      "title": "Vibhavari Sesa | Agnidev Prabhu",
+      "url": "https://www.youtube.com/watch?v=8GyRm9qqQ8A",
+      "playlistIndex": 8,
+      "uploadInfo": "2 years ago"
+    }
+  ],
+  "sortOrder": "upload",
+  "sortedVideos": [
+    {
+      "title": "Vibhavari Sesa | Agnidev Prabhu",
+      "url": "https://www.youtube.com/watch?v=8GyRm9qqQ8A",
+      "downloadIndex": 1,
+      "playlistIndex": 8
+    },
+    {
+      "title": "Sri Guru Vandana ~ Swarupa Damodara Das",
+      "url": "https://www.youtube.com/watch?v=JAEDDy_DTlQ",
+      "downloadIndex": 2,
+      "playlistIndex": 7
+    },
+    {
+      "title": "Iskcon Mayapur Early Morning Tulsi Aarti 07/08/2018",
+      "url": "https://www.youtube.com/watch?v=MEukPf06E1E",
+      "downloadIndex": 3,
+      "playlistIndex": 6
+    },
+    {
+      "title": "Sri Sri Gurv-astaka",
+      "url": "https://www.youtube.com/watch?v=FEuVOngfAwc",
+      "downloadIndex": 4,
+      "playlistIndex": 5
+    },
+    {
+      "title": "Samsara Davanala ~ Srila Prabhupada:",
+      "url": "https://www.youtube.com/watch?v=izDzDeENTGU",
+      "downloadIndex": 5,
+      "playlistIndex": 4
+    },
+    {
+      "title": "Samsara Davanala (ISKCON morning aarti) ||",
+      "url": "https://www.youtube.com/watch?v=SVuY8bfzbgM",
+      "downloadIndex": 6,
+      "playlistIndex": 3
+    },
+    {
+      "title": "नमस्ते नरसिंहाय (Narasimha Aarti) | Swaroop Damodar Prabhu | Narsimha Prayers",
+      "url": "https://www.youtube.com/watch?v=bM7T4HVmOMM",
+      "downloadIndex": 7,
+      "playlistIndex": 2
+    },
+    {
+      "title": "Vibhāvarī Śeṣa by Pavan Nitai Chandra Prabhu | Kirtan Revolution",
+      "url": "https://www.youtube.com/watch?v=_4w6gRYtS6I",
+      "downloadIndex": 8,
+      "playlistIndex": 1
+    }
+  ]
+}
