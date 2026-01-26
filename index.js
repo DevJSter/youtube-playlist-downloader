@@ -2,22 +2,47 @@ const ytdl = require('@distube/ytdl-core');
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
+
+// Check if yt-dlp is installed
+function checkYtDlpInstalled() {
+  try {
+    execSync('yt-dlp --version', { stdio: 'pipe' });
+    return true;
+  } catch (error) {
+    return false;
+  }
+}
+
+// Verify yt-dlp installation on startup
+if (!checkYtDlpInstalled()) {
+  console.error('❌ Error: yt-dlp is not installed!');
+  console.log('\n💡 To install yt-dlp, run one of these commands:');
+  console.log('   • macOS/Linux: pip install -U yt-dlp');
+  console.log('   • macOS (Homebrew): brew install yt-dlp');
+  console.log('   • Windows: pip install -U yt-dlp');
+  console.log('\n📖 For more info: https://github.com/yt-dlp/yt-dlp#installation\n');
+  process.exit(1);
+}
 
 // Method 1: Download multiple playlists with Puppeteer in upload order with organized folders
 const playlistUrls = [
-  "https://youtube.com/playlist?list=PLO5VPQH6OWdX-Rh7RonjZhOd9pb9zOnHW&si=fordeuy3g3xBkVqI",
-  "https://youtube.com/playlist?list=PLO5VPQH6OWdXR8NlZt0jRbC39W_IyzS-v&si=KQ19RFSLhMBJQ6K3",
-  "https://youtube.com/playlist?list=PLO5VPQH6OWdW9b6GKJR4Dt9XZxQlJuVp_&si=mvumkzxglMOSf1Gd",
-  "https://youtube.com/playlist?list=PLO5VPQH6OWdVKZKJtTGTB10dDXyMVvPR5&si=Jqu-8Pp_z6glGIG5",
-  "https://youtube.com/playlist?list=PLO5VPQH6OWdXp2_Nk8U7V-zh7suI05i0E&si=8MpQLKxLd0563z8U",
-  "https://youtube.com/playlist?list=PLO5VPQH6OWdULDcret0S0EYQ7YcKzrigz&si=LoYClaBb6074Ap9t",
-  "https://youtube.com/playlist?list=PLO5VPQH6OWdVfvNOaEhBtA53XHyHo_oJo&si=gX31bbmjW8XKq1H6",
-  "https://youtube.com/playlist?list=PLO5VPQH6OWdXxQc_1YPa63Ody9LknKW4k&si=u2C4E1wquoSZy9s_",
-  "https://youtube.com/playlist?list=PLO5VPQH6OWdXhkOvoptGTyQk3KI2EawUc&si=FuqOQE916BYpyqZQ",
-  "https://youtube.com/playlist?list=PLO5VPQH6OWdXFEiSgfL0GoS2fZ3ZNoC0_&si=jKJ1SwF5YUl2UBOD",
+//   "https://youtube.com/playlist?list=PLO5VPQH6OWdX-Rh7RonjZhOd9pb9zOnHW&si=fordeuy3g3xBkVqI",
+//   "https://youtube.com/playlist?list=PLO5VPQH6OWdXR8NlZt0jRbC39W_IyzS-v&si=KQ19RFSLhMBJQ6K3",
+//   "https://youtube.com/playlist?list=PLO5VPQH6OWdW9b6GKJR4Dt9XZxQlJuVp_&si=mvumkzxglMOSf1Gd",
+//   "https://youtube.com/playlist?list=PLO5VPQH6OWdVKZKJtTGTB10dDXyMVvPR5&si=Jqu-8Pp_z6glGIG5",
+//   "https://youtube.com/playlist?list=PLO5VPQH6OWdXp2_Nk8U7V-zh7suI05i0E&si=8MpQLKxLd0563z8U",
+//   "https://youtube.com/playlist?list=PLO5VPQH6OWdULDcret0S0EYQ7YcKzrigz&si=LoYClaBb6074Ap9t",
+//   "https://youtube.com/playlist?list=PLO5VPQH6OWdVfvNOaEhBtA53XHyHo_oJo&si=gX31bbmjW8XKq1H6",
+//   "https://youtube.com/playlist?list=PLO5VPQH6OWdXxQc_1YPa63Ody9LknKW4k&si=u2C4E1wquoSZy9s_",
+//   "https://youtube.com/playlist?list=PLO5VPQH6OWdXhkOvoptGTyQk3KI2EawUc&si=FuqOQE916BYpyqZQ",
+//   "https://youtube.com/playlist?list=PLO5VPQH6OWdXFEiSgfL0GoS2fZ3ZNoC0_&si=jKJ1SwF5YUl2UBOD",
   // Add more playlist URLs here
   // "https://youtube.com/playlist?list=ANOTHER_PLAYLIST_ID",
-  // "https://youtube.com/playlist?list=YET_ANOTHER_PLAYLIST_ID",
+  // "https://youtube.com/playlist?list=YET_ANOTHER_PLAYLIST_ID"
+  // 
+  // "https://youtube.com/playlist?list=PLZ8Wvrgrd8kqKekRObIilvSgVhBKPjJxO&si=fJXmRaP8K_zV0T_d",
+"https://youtube.com/playlist?list=PLSThUO0ILfPQZ4u38sMaZZKm7By5pJ6QZ&si=tutpKrwF4tZu_Pwy"
 ];
 
 // Single playlist URL (for backwards compatibility)
@@ -101,50 +126,83 @@ async function getVideoInfo(url, retries = 3) {
   }
 }
 
-// Alternative download function using yt-dlp as fallback
-async function downloadVideoWithYtDlp(videoUrl, customTitle = null, playlistFolder = null) {
+// Primary download function using yt-dlp
+async function downloadVideoWithYtDlp(videoUrl, customTitle = null, playlistFolder = null, retries = 3) {
   const { spawn } = require('child_process');
   
-  try {
-    const outputDir = playlistFolder || downloadFolder;
-    const sanitizedTitle = customTitle ? sanitizeFilename(customTitle) : '%(title)s';
-    const outputTemplate = path.join(outputDir, `${sanitizedTitle}.%(ext)s`);
-    
-    console.log(`\n🔧 Trying yt-dlp for: ${videoUrl}`);
-    
-    return new Promise((resolve, reject) => {
-      const ytDlp = spawn('yt-dlp', [
-        '--format', 'best[height<=720]',
-        '--output', outputTemplate,
-        '--no-playlist',
-        '--user-agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
-        videoUrl
-      ]);
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      const outputDir = playlistFolder || downloadFolder;
+      const sanitizedTitle = customTitle ? sanitizeFilename(customTitle) : '%(title)s';
+      const outputTemplate = path.join(outputDir, `${sanitizedTitle}.%(ext)s`);
       
-      let output = '';
-      let errorOutput = '';
-      
-      ytDlp.stdout.on('data', (data) => {
-        output += data.toString();
-        process.stdout.write(data);
-      });
-      
-      ytDlp.stderr.on('data', (data) => {
-        errorOutput += data.toString();
-        process.stderr.write(data);
-      });
-      
-      ytDlp.on('close', (code) => {
-        if (code === 0) {
-          console.log(`\n✅ Downloaded with yt-dlp: ${customTitle || 'video'}`);
-          resolve({ success: true, skipped: false, title: customTitle || 'video' });
-        } else {
-          reject(new Error(`yt-dlp exited with code ${code}: ${errorOutput}`));
+      // Check if file already exists
+      if (customTitle) {
+        const possibleExtensions = ['.mp4', '.mkv', '.webm', '.m4a'];
+        for (const ext of possibleExtensions) {
+          const filePath = path.join(outputDir, `${sanitizedTitle}${ext}`);
+          if (fs.existsSync(filePath)) {
+            console.log(`⏭️  Skipping (already exists): ${customTitle}`);
+            return { success: true, skipped: true, title: customTitle };
+          }
         }
+      }
+      
+      if (attempt === 1) {
+        console.log(`\n🔧 Downloading with yt-dlp: ${videoUrl}`);
+      } else {
+        console.log(`\n🔄 Retry attempt ${attempt}/${retries}...`);
+      }
+      
+      return await new Promise((resolve, reject) => {
+        const ytDlp = spawn('yt-dlp', [
+          '--format', 'bestvideo[height<=1080][ext=mp4]+bestaudio[ext=m4a]/best[height<=1080][ext=mp4]/best',
+          '--output', outputTemplate,
+          '--no-playlist',
+          '--concurrent-fragments', '4',
+          '--retries', '10',
+          '--fragment-retries', '10',
+          '--user-agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+          '--referer', 'https://www.youtube.com/',
+          '--no-check-certificate',
+          videoUrl
+        ]);
+        
+        let output = '';
+        let errorOutput = '';
+        
+        ytDlp.stdout.on('data', (data) => {
+          output += data.toString();
+          process.stdout.write(data);
+        });
+        
+        ytDlp.stderr.on('data', (data) => {
+          errorOutput += data.toString();
+          process.stderr.write(data);
+        });
+        
+        ytDlp.on('close', (code) => {
+          if (code === 0) {
+            console.log(`\n✅ Downloaded with yt-dlp: ${customTitle || 'video'}`);
+            resolve({ success: true, skipped: false, title: customTitle || 'video' });
+          } else {
+            const error = new Error(`yt-dlp exited with code ${code}: ${errorOutput || 'Unknown error'}`);
+            reject(error);
+          }
+        });
+        
+        ytDlp.on('error', (error) => {
+          reject(new Error(`Failed to spawn yt-dlp: ${error.message}`));
+        });
       });
-    });
-  } catch (error) {
-    throw new Error(`yt-dlp failed: ${error.message}`);
+    } catch (error) {
+      if (attempt === retries) {
+        throw new Error(`yt-dlp failed after ${retries} attempts: ${error.message}`);
+      }
+      console.log(`⚠️  Attempt ${attempt} failed: ${error.message}`);
+      // Wait before retry with exponential backoff
+      await new Promise(resolve => setTimeout(resolve, 2000 * attempt));
+    }
   }
 }
 async function extractPlaylistUrls(playlistUrl, options = {}) {
@@ -724,7 +782,7 @@ async function downloadPlaylist(playlistUrl, options = {}) {
       console.log(`📋 Original Position: #${video.playlistIndex}`);
       
       try {
-        // Try yt-dlp first since it's more reliable and doesn't create debug files
+        // Use yt-dlp as the primary and only method (more reliable and actively maintained)
         console.log(`🔧 Using yt-dlp (primary method)`);
         const result = await downloadVideoWithYtDlp(video.url, sanitizeFilename(video.title), playlistFolder);
         if (result.skipped) {
@@ -733,25 +791,12 @@ async function downloadPlaylist(playlistUrl, options = {}) {
           successCount++;
         }
       } catch (error) {
-        console.error(`❌ yt-dlp failed for "${video.title}": ${error.message}`);
+        failCount++;
+        console.error(`❌ Failed to download "${video.title}": ${error.message}`);
+        console.log(`� Tip: Make sure yt-dlp is installed and up to date (pip install -U yt-dlp)`);
         
-        // Try fallback method with ytdl-core
-        try {
-          console.log(`🔄 Trying fallback method (ytdl-core)...`);
-          const result = await downloadVideo(video.url, sanitizeFilename(video.title), playlistFolder);
-          if (result.skipped) {
-            skippedCount++;
-          } else {
-            successCount++;
-            console.log(`✅ Fallback download successful!`);
-          }
-        } catch (fallbackError) {
-          failCount++;
-          console.error(`❌ Both methods failed for "${video.title}": ${fallbackError.message}`);
-          
-          if (!continueOnError) {
-            throw fallbackError;
-          }
+        if (!continueOnError) {
+          throw error;
         }
       }
       

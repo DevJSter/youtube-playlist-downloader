@@ -2,17 +2,20 @@
 
 ## Description
 
-YouTube Playlist Downloader is a Node.js utility designed to download entire YouTube playlists. It uses Puppeteer to extract video URLs from playlists and ytdl-core to download the videos. Videos are organized into folders based on the playlist title and downloaded in the order they appear on YouTube.
+YouTube Playlist Downloader is a Node.js utility designed to download entire YouTube playlists. It uses Puppeteer to extract video URLs from playlists and **yt-dlp** to download the videos reliably. Videos are organized into folders based on the playlist title and can be downloaded in various orders (playlist order, upload order, or reverse).
 
 ## Features
 
-- Downloads entire YouTube playlists automatically
-- Organizes videos into folders by playlist name
-- Downloads videos in upload order
-- Handles large playlists with automatic scrolling to load all videos
-- Includes retry logic for robust downloading
-- Sanitizes filenames to avoid filesystem issues
-- Saves playlist metadata in JSON format
+- ✅ Downloads entire YouTube playlists automatically
+- 📁 Organizes videos into folders by playlist name
+- 📅 Multiple sort options: playlist order, upload date, or reverse
+- 🔄 Automatic retry logic with exponential backoff
+- 📊 Progress tracking and detailed download statistics
+- 🎥 High-quality video downloads (up to 1080p)
+- 🧹 Automatic cleanup of temporary files
+- 💾 Saves playlist metadata in JSON format
+- ⚡ Concurrent fragment downloads for faster speeds
+- 🛡️ Robust error handling with helpful messages
 
 ## Requirements
 
@@ -21,13 +24,37 @@ YouTube Playlist Downloader is a Node.js utility designed to download entire You
 - **Operating System**: Linux, macOS, or Windows
 - **Node.js**: Version 14.0.0 or higher
 - **NPM**: Version 6.0.0 or higher (comes with Node.js)
+- **Python**: 3.7+ (for yt-dlp)
 - **Browser**: Chromium or Google Chrome (automatically managed by Puppeteer)
 
-### Dependencies
+### Required Software
+
+1. **yt-dlp** (REQUIRED):
+   ```bash
+   # macOS (using Homebrew - recommended)
+   brew install yt-dlp
+   
+   # OR using pip
+   pip install -U yt-dlp
+   
+   # Linux (using pip)
+   pip install -U yt-dlp
+   
+   # Windows (using pip)
+   pip install -U yt-dlp
+   ```
+   
+   Verify installation: `yt-dlp --version`
+
+2. **Node.js Installation**:
+   - Download from [nodejs.org](https://nodejs.org/)
+   - Verify installation: `node --version` and `npm --version`
+
+### Node.js Dependencies
 
 The following Node.js packages are required:
 
-- `@distube/ytdl-core`: For downloading YouTube videos
+- `@distube/ytdl-core`: Backup library (not actively used)
 - `puppeteer`: For browser automation to extract playlist data
 
 ### Hardware Requirements
@@ -35,16 +62,6 @@ The following Node.js packages are required:
 - Sufficient disk space for downloaded videos
 - Stable internet connection for downloading
 - At least 4GB RAM recommended for large playlists
-
-### Software Prerequisites
-
-1. **Node.js Installation**:
-   - Download from [nodejs.org](https://nodejs.org/)
-   - Verify installation: `node --version` and `npm --version`
-
-2. **Browser Setup**:
-   - Puppeteer automatically downloads Chromium
-   - Ensure no firewall blocks browser automation
 
 ## Installation
 
